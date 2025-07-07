@@ -12,6 +12,8 @@ export const menuData: MenuCategory[] = [
       { name: t('Capricciosa', 'Capricciosa', 'Capricciosa', 'كابريتشيوزا'), description: t('Paradajz sos, sir, šunka, gljive', 'Tomato sauce, cheese, ham, mushrooms', 'Tomatensauce, Käse, Schinken, Pilze', 'صلصة طماطم، جبنة، لحم خنزير، فطر'), price: '12 BAM' },
       { name: t('Quattro Formaggi', 'Four Cheese', 'Vier Käse', 'أربعة أجبان'), description: t('4 vrste sira', '4 types of cheese', '4 Käsesorten', '4 أنواع من الجبن'), price: '14 BAM' },
       { name: t('City Special', 'City Special', 'City Spezial', 'سيتي سبيشل'), description: t('Paradajz sos, sir, pršut, rukola, cherry paradajz', 'Tomato sauce, cheese, prosciutto, arugula, cherry tomatoes', 'Tomatensauce, Käse, Prosciutto, Rucola, Kirschtomaten', 'صلصة طماطم، جبنة، بروشوتو، جرجير، طماطم كرزية'), price: '16 BAM' },
+      { name: t('Mexicana', 'City Special', 'City Spezial', 'سيتي سبيشل'), description: t('Paradajz sos, sir, pršut, rukola, cherry paradajz', 'Tomato sauce, cheese, prosciutto, arugula, cherry tomatoes', 'Tomatensauce, Käse, Prosciutto, Rucola, Kirschtomaten', 'صلصة طماطم، جبنة، بروشوتو، جرجير، طماطم كرزية'), price: '16 BAM' },
+
     ],
   },
   {
