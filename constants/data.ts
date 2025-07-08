@@ -54,14 +54,26 @@ export const menuData: MenuCategory[] = [
       { name: t('City - burger (pohovana piletina)', 'City - Burger (breaded chicken)', 'City - Burger (panierte Hähnchen)', 'سيتي - برجر (دجاج مقلي)'), price: '8 BAM' }
     ]
   },
-  {
+{
   id: 'pasta',
   title: t('Tjestenina', 'Pasta', 'Teigwaren', 'معكرونة'),
   items: [
-    { name: t('Carbonara', 'Carbonara', 'Carbonara', 'كاربونارا'), description: t('Pasta sa jajima, sirom i slaninom', 'Pasta with eggs, cheese and bacon', 'Pasta mit Ei, Käse und Speck', 'باستا مع البيض والجبن واللحم'), price: '14 BAM' },
-    { name: t('Alfredo', 'Alfredo', 'Alfredo', 'ألفريدو'), description: t('Pasta sa bijelim sosom i piletinom', 'Pasta with white sauce and chicken', 'Pasta mit weißer Soße und Hähnchen', 'باستا مع صلصة بيضاء ودجاج'), price: '15 BAM' },
-    ],
-  },
+    { name: t('Spaghetti Napoli', 'Spaghetti Napoli', 'Spaghetti Napoli', 'سباغيتي نابولي'), price: '8 BAM' },
+    { name: t('Spaghetti Milanese', 'Spaghetti Milanese', 'Spaghetti Mailänder Art', 'سباغيتي ميلانيز'), price: '9 BAM' },
+    { name: t('Spaghetti Bolognese', 'Spaghetti Bolognese', 'Spaghetti Bolognese', 'سباغيتي بولونيز'), price: '8 BAM' },
+    { name: t('Spaghetti Carbonara', 'Spaghetti Carbonara', 'Spaghetti Carbonara', 'سباغيتي كاربونارا'), price: '10 BAM' },
+    { name: t('Spaghetti Frutti di Mare', 'Spaghetti Frutti di Mare', 'Spaghetti mit Meeresfrüchten', 'سباغيتي مع ثمار البحر'), price: '12 BAM' },
+    { name: t('Tjestenina sa gorgonzolom', 'Pasta with Gorgonzola', 'Pasta mit Gorgonzola', 'باستا مع جورجونزولا'), price: '10 BAM' },
+    { name: t('Tjestenina sa pilećim mesom', 'Pasta with Chicken', 'Pasta mit Hähnchenfleisch', 'باستا مع الدجاج'), price: '8 BAM' },
+    { name: t('Tjestenina sa tunjevinom i sirom', 'Pasta with Tuna and Cheese', 'Pasta mit Thunfisch und Käse', 'باستا مع التونة والجبنة'), price: '10 BAM' },
+    { name: t('Tjestenina 4 vrste sira', 'Four Cheese Pasta', 'Vier-Käse-Pasta', 'باستا أربع أنواع جبنة'), price: '12 BAM' },
+    { name: t('Risotto povrće', 'Vegetable Risotto', 'Gemüse-Risotto', 'ريزوتو بالخضار'), price: '9 BAM' },
+    { name: t('Risotto morski plodovi', 'Seafood Risotto', 'Meeresfrüchte-Risotto', 'ريزوتو بثمار البحر'), price: '12 BAM' },
+    { name: t('Risotto lignje', 'Squid Risotto', 'Tintenfisch-Risotto', 'ريزوتو بالحبار'), price: '15 BAM' },
+    { name: t('Lazanje sa mesom in forno', 'Baked Meat Lasagna', 'Lasagne mit Fleisch aus dem Ofen', 'لازانيا باللحم في الفرن'), price: '8 BAM' },
+    { name: t('Zapečeni makaroni', 'Baked Macaroni', 'Überbackene Makkaroni', 'مكرونة مخبوزة'), price: '8 BAM' },
+  ],
+},
   {
     id: 'pizzas',
     title: t('Pizze', 'Pizzas', 'Pizzen', 'بيتزا'),
