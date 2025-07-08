@@ -5,14 +5,23 @@ const t = (bs: string, en: string, de: string, ar: string): { [key in Language]:
 
 export const menuData: MenuCategory[] = [
   {
-    id: 'special',
-    title: t('Specijaliteti', 'Specialties', 'Spezialitäten', 'الأطباق الخاصة'),
-    items: [
-      { name: t('Bosanski Lonac', 'Bosnian Pot', 'Bosnischer Topf', 'وعاء بوسني'), description: t('Tradicionalno jelo sa mesom i povrćem', 'Traditional dish with meat and vegetables', 'Traditionelles Gericht mit Fleisch und Gemüse', 'طبق تقليدي باللحم والخضروات'), price: '20 BAM' },
-      { name: t('Bečka Šnicla', 'Viennese Schnitzel', 'Wiener Schnitzel', 'شنيتزل فييني'), description: t('Pohovana teleća šnicla sa krompirom', 'Breaded veal cutlet with potatoes', 'Paniertes Kalbsschnitzel mit Kartoffeln', 'شريحة لحم عجل بالبقسماط مع بطاطس'), price: '18 BAM' },
-      { name: t('Lazanje Bolognese', 'Lasagna Bolognese', 'Lasagne Bolognese', 'لازانيا بولونيز'), description: t('Klasične lazanje sa mljevenim mesom', 'Classic lasagna with minced meat', 'Klassische Lasagne mit Hackfleisch', 'لازانيا كلاسيكية باللحم المفروم'), price: '15 BAM' },
+  id: 'special',
+  title: t('Specijalna ponuda', 'Special Offer', 'Spezialangebot', 'العرض الخاص'),
+  items: [
+    { name: t('Ramstek', 'Rump Steak', 'Rumpsteak', 'رامب ستيك'), price: '17 BAM' },
+    { name: t('Ramstek sa gorgonzolom', 'Rump Steak with Gorgonzola', 'Rumpsteak mit Gorgonzola', 'رامب ستيك مع الجورجونزولا'), price: '19 BAM' },
+    { name: t('Biftek', 'Beefsteak', 'Rinderfilet', 'بيفتك'), price: '31 BAM' },
+    { name: t('Biftek sa gorgonzolom', 'Beefsteak with Gorgonzola', 'Rinderfilet mit Gorgonzola', 'بيفتك مع الجورجونزولا'), price: '33 BAM' },
+    { name: t('City - steak', 'City - Steak', 'City - Steak', 'سيتي - ستيك'), price: '27 BAM' },
+    { name: t('City - burger sa prilogom', 'City - Burger with Sides', 'City - Burger mit Beilage', 'سيتي - برجر مع طبق جانبي'), price: '8 BAM' },
+    { name: t('Pepper steak', 'Pepper Steak', 'Pfeffersteak', 'ستيك بالفلفل'), price: '19 BAM' },
+    { name: t('Pastrmka', 'Trout', 'Forelle', 'سمك السلمون المرقط'), price: '13 BAM' },
+    { name: t('Tortilja', 'Tortilla', 'Tortilla', 'تورتيلا'), price: '8 BAM' },
+    { name: t('City - burger (pohovana piletina)', 'City - Burger (breaded chicken)', 'City - Burger (panierte Hähnchen)', 'سيتي - برجر (دجاج مقلي)'), price: '8 BAM' },
+    { name: t('City tortilja', 'City Tortilla', 'City Tortilla', 'سيتي تورتيلا'), price: '8 BAM' },
+    { name: t('Teletina ispod sača 1kg (prilog + salata)', 'Veal under sač 1kg (sides + salad)', 'Kalbfleisch unter der Glut 1kg (Beilage + Salat)', 'لحم عجل تحت الساچ 1 كغ (طبق جانبي + سلطة)'), price: '45 BAM' },
     ],
-  },
+  }
   {
     id: 'grill',
     title: t('Roštilj', 'Grill', 'Grill', 'مشويات'),
