@@ -5,12 +5,30 @@ const t = (bs: string, en: string, de: string, ar: string): { [key in Language]:
 
 export const menuData: MenuCategory[] = [
   {
+    id: 'special',
+    title: t('Specijalna ponuda', 'Special Offer', 'Spezialangebot', 'العرض الخاص'),
+    items: [
+      { name: t('Ramstek', 'Rump Steak', 'Rumpsteak', 'رامب ستيك'), price: '17 BAM' },
+      { name: t('Ramstek sa gorgonzolom', 'Rump Steak with Gorgonzola', 'Rumpsteak mit Gorgonzola', 'رامب ستيك مع الجورجونزولا'), price: '19 BAM' },
+      { name: t('Biftek', 'Beefsteak', 'Rinderfilet', 'بيفتك'), price: '31 BAM' },
+      { name: t('Biftek sa gorgonzolom', 'Beefsteak with Gorgonzola', 'Rinderfilet mit Gorgonzola', 'بيفتك مع الجورجونزولا'), price: '33 BAM' },
+      { name: t('City - steak', 'City - Steak', 'City - Steak', 'سيتي - ستيك'), price: '27 BAM' },
+      { name: t('City - burger sa prilogom', 'City - Burger with Sides', 'City - Burger mit Beilage', 'سيتي - برجر مع طبق جانبي'), price: '8 BAM' },
+      { name: t('Pepper steak', 'Pepper Steak', 'Pfeffersteak', 'ستيك بالفلفل'), price: '19 BAM' },
+      { name: t('Pastrmka', 'Trout', 'Forelle', 'سمك السلمون المرقط'), price: '13 BAM' },
+      { name: t('Tortilja', 'Tortilla', 'Tortilla', 'تورتيلا'), price: '8 BAM' },
+      { name: t('City - burger (pohovana piletina)', 'City - Burger (breaded chicken)', 'City - Burger (panierte Hähnchen)', 'سيتي - برجر (دجاج مقلي)'), price: '8 BAM' },
+      { name: t('City tortilja', 'City Tortilla', 'City Tortilla', 'سيتي تورتيلا'), price: '8 BAM' },
+      { name: t('Teletina ispod sača 1kg (prilog + salata)', 'Veal under sač 1kg (sides + salad)', 'Kalbfleisch unter der Glut 1kg (Beilage + Salat)', 'لحم عجل تحت الساچ 1 كغ (طبق جانبي + سلطة)'), price: '45 BAM' },
+    ],
+  },
+  {
     id: 'grill',
     title: t('Roštilj', 'Grill', 'Grill', 'مشويات'),
     items: [
       { name: t('Ćevapi', 'Ćevapi', 'Ćevapi', 'كباب'), description: t('10 komada u somunu sa lukom', '10 pieces in flatbread with onion', '10 Stück im Fladenbrot mit Zwiebeln', '10 قطع في خبز مسطح مع بصل'), price: '10 BAM' },
       { name: t('Pljeskavica', 'Burger Patty', 'Burger-Patty', 'برجر'), description: t('Gurmanska pljeskavica sa sirom', 'Gourmet burger patty with cheese', 'Gourmet-Burger-Patty mit Käse', 'برجر شهي بالجبنة'), price: '12 BAM' },
-      { name: t('Miješao meso', 'Mixed Grill', 'Gemischter Grillteller', 'مشكل مشاوي'), description: t('Ćevapi, pljeskavica, kobasica, piletina', 'Ćevapi, burger patty, sausage, chicken', 'Ćevapi, Burger-Patty, Wurst, Hähnchen', 'كباب، برجر، سجق، دجاج'), price: '25 BAM' },
+      { name: t('Miješano meso', 'Mixed Grill', 'Gemischter Grillteller', 'مشكل مشاوي'), description: t('Ćevapi, pljeskavica, kobasica, piletina', 'Ćevapi, burger patty, sausage, chicken', 'Ćevapi, Burger-Patty, Wurst, Hähnchen', 'كباب، برجر، سجق، دجاج'), price: '25 BAM' },
     ],
   },
   {
