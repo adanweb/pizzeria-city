@@ -264,11 +264,12 @@ export const menuData: MenuCategory[] = [
 },
   {
   id: 'city-breakfast',
-  title: t('City - doručak', 'City - Breakfast', 'City - Frühstück', 'سيتي - فطور'),
+  title: t('City – doručak', 'City – Breakfast', 'City – Frühstück', 'فطور سيتي'),
   items: [
-    { name: t('Doručak City', 'City Breakfast', 'City Frühstück', 'فطور المدينة'), description: t('Jaja, sudžuka, sir, hljeb', 'Eggs, sudžuk, cheese, bread', 'Eier, Sucuk, Käse, Brot', 'بيض، سجق، جبنة، خبز'), price: '9 BAM' },
-    ]
-  },
+    { name: t('City – doručak', 'City – Breakfast', 'City – Frühstück', 'فطور سيتي'), price: '8 KM' },
+    { name: t('Omlette', 'Omelette', 'Omelett', 'عجة بيض'), price: '6.90 KM' },
+  ]
+},
   {
   id: 'extras',
   title: t('Dodaci', 'Extras', 'Extras', 'إضافات'),
