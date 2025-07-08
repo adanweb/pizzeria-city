@@ -40,7 +40,7 @@ export const menuData: MenuCategory[] = [
       { name: t('Miješano meso (za 2 osobe)', 'Mixed Meat (for 2 persons)', 'Gemischtes Fleisch (für 2 Personen)', 'لحم مشكل (لشخصين)'), price: '32 BAM' },
       { name: t('Miješano meso (za 3 osobe)', 'Mixed Meat (for 3 persons)', 'Gemischtes Fleisch (für 3 Personen)', 'لحم مشكل (لثلاثة أشخاص)'), price: '48 BAM' },
       { name: t('Pileći file', 'Chicken Filet', 'Hähnchenfilet', 'فيليه دجاج'), price: '10 BAM' },
-      { name: t('Pilece krpice + kajmak', 'Chicken Strips + Kajmak', 'Hähnchenstreifen + Kajmak', 'شرائح دجاج + قشطة'), price: '13 BAM' },
+      { name: t('Pileće krpice + kajmak', 'Chicken Strips + Kajmak', 'Hähnchenstreifen + Kajmak', 'شرائح دجاج + قشطة'), price: '13 BAM' },
       { name: t('Pljeskavica', 'Burger Patty', 'Burger-Patty', 'برجر'), price: '9 BAM' },
       { name: t('Punjena pljeskavica', 'Stuffed Burger Patty', 'Gefüllte Burger-Patty', 'برجر محشي'), price: '10 BAM' },
       { name: t('City pikant pljeskavica', 'City Spicy Patty', 'City Scharfe Patty', 'برجر حار من سيتي'), price: '10 BAM' },
