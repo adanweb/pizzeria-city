@@ -299,11 +299,13 @@ export const menuData: MenuCategory[] = [
   title: t('Hladne plate', 'Cold Plates', 'Kalte Platten', 'الأطباق الباردة'),
   items: [
     {
-      name: t('Hladna plata (za jednu osobu i pizza brot)', 'Cold plate (for one person and pizza bread)', 'Kalte Platte (für eine Person mit Pizzabrot)', 'طبق بارد (لشخص واحد وخبز بيتزا)'),
+      name: t('Hladna plata', 'Cold plate', 'Kalte Platte', 'طبق بارد'),
+      description: t('za jednu osobu i pizza brot', 'for one person and pizza bread', 'für eine Person mit Pizzabrot', 'لشخص واحد وخبز بيتزا'),
       price: '15 KM'
     },
     {
-      name: t('Hladna plata (za 2 osobe i pizza brot)', 'Cold plate (for 2 persons and pizza bread)', 'Kalte Platte (für 2 Personen mit Pizzabrot)', 'طبق بارد (لشخصين وخبز بيتزا)'),
+      name: t('Hladna plata', 'Cold plate', 'Kalte Platte', 'طبق بارد'),
+      description: t('za 2 osobe i pizza brot', 'for 2 persons and pizza bread', 'für 2 Personen mit Pizzabrot', 'لشخصين وخبز بيتزا'),
       price: '30 KM'
     }
   ]
