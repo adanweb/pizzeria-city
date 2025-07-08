@@ -8,7 +8,7 @@ export const menuData: MenuCategory[] = [
   id: 'special',
   title: t('Specijalna ponuda', 'Special Offer', 'Spezialangebot', 'العرض الخاص'),
   items: [
-    { name: t('Ramstek', 'Rump Steak', 'Rumpsteak', 'رامب ستيك'), price: '17 BAM' },
+    { name: t('Ramste', 'Rump Steak', 'Rumpsteak', 'رامب ستيك'), price: '17 BAM' },
     { name: t('Ramstek sa gorgonzolom', 'Rump Steak with Gorgonzola', 'Rumpsteak mit Gorgonzola', 'رامب ستيك مع الجورجونزولا'), price: '19 BAM' },
     { name: t('Biftek', 'Beefsteak', 'Rinderfilet', 'بيفتك'), price: '31 BAM' },
     { name: t('Biftek sa gorgonzolom', 'Beefsteak with Gorgonzola', 'Rinderfilet mit Gorgonzola', 'بيفتك مع الجورجونزولا'), price: '33 BAM' },
