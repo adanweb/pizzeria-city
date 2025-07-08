@@ -430,9 +430,15 @@ export const menuData: MenuCategory[] = [
   id: 'beer',
   title: t('Pivo', 'Beer', 'Bier', 'بيرة'),
   items: [
-    { name: t('Sarajevsko', 'Sarajevsko Beer', 'Sarajevsko Bier', 'بيرة سراييفو'), description: t('Lager pivo 0.5l', 'Lager beer 0.5l', 'Lagerbier 0,5l', 'بيرة لاجر 0.5 لتر'), price: '4.5 BAM' },
-    ]
-  },
+    { name: t('Preminger', 'Preminger', 'Preminger', 'بريمنجر'), price: '3.00 KM' },
+    { name: t('Karlovačko', 'Karlovačko', 'Karlovačko', 'كارلوفاتشكو'), price: '3.00 KM' },
+    { name: t('Laško', 'Laško', 'Laško', 'لاشكو'), price: '3.00 KM' },
+    { name: t('Laško Malt', 'Laško Malt', 'Laško Malz', 'لاشكو مالت'), price: '3.00 KM' },
+    { name: t('Heineken', 'Heineken', 'Heineken', 'هاينيكن'), price: '4.00 KM' },
+    { name: t('Bezalkoholno pivo', 'Non-alcoholic beer', 'Alkoholfreies Bier', 'بيرة بدون كحول'), price: '4.00 KM' },
+    { name: t('Radler', 'Radler', 'Radler', 'رادلر'), price: '3.00 KM' }
+  ]
+},
   {
   id: 'wine',
   title: t('Vina', 'Wines', 'Weine', 'نبيذ'),
