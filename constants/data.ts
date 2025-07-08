@@ -338,11 +338,30 @@ export const menuData: MenuCategory[] = [
 },
   {
   id: 'desserts',
-  title: t('Dezert', 'Dessert', 'Dessert', 'حلويات'),
+  title: t('Dezert', 'Desserts', 'Desserts', 'حلويات'),
   items: [
-    { name: t('Tufahija', 'Tufahija', 'Tufahija', 'تفاحة محشوة'), description: t('Pečena jabuka punjena orasima', 'Baked apple stuffed with walnuts', 'Gebackener Apfel mit Walnüssen', 'تفاحة مخبوزة محشوة بالجوز'), price: '4 BAM' },
-    ]
-  },
+    {
+      name: t('Palačinke sa eurokremom', 'Pancakes with Eurocream', 'Pfannkuchen mit Eurocreme', 'فطائر مع يوروكريم'),
+      price: '4 KM'
+    },
+    {
+      name: t('Palačinke sa orasima', 'Pancakes with walnuts', 'Pfannkuchen mit Walnüssen', 'فطائر مع الجوز'),
+      price: '4 KM'
+    },
+    {
+      name: t('Palačinke sa keksom', 'Pancakes with biscuit', 'Pfannkuchen mit Keks', 'فطائر مع البسكويت'),
+      price: '4 KM'
+    },
+    {
+      name: t('Palačinke sa šumskim voćem', 'Pancakes with forest fruit', 'Pfannkuchen mit Waldfrüchten', 'فطائر مع فواكه الغابة'),
+      price: '4 KM'
+    },
+    {
+      name: t('Kolač', 'Cake', 'Kuchen', 'كيك'),
+      price: '4 KM'
+    }
+  ]
+},
   {
   id: 'hot-drinks',
   title: t('Topli napitci', 'Hot Drinks', 'Heißgetränke', 'مشروبات ساخنة'),
