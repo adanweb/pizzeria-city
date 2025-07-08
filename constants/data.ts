@@ -134,7 +134,6 @@ export const menuData: MenuCategory[] = [
     { name: t('Vranac', 'Vranac Wine', 'Vranac Wein', 'نبيذ فراناك'), description: t('Crveno vino iz Crne Gore', 'Red wine from Montenegro', 'Rotwein aus Montenegro', 'نبيذ أحمر من الجبل الأسود'), price: '6 BAM' },
     ]
   }
-  {
 ];
 
 export const galleryImages: string[] = [
