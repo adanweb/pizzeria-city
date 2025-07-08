@@ -5,6 +5,15 @@ const t = (bs: string, en: string, de: string, ar: string): { [key in Language]:
 
 export const menuData: MenuCategory[] = [
   {
+    id: 'special',
+    title: t('Specijaliteti', 'Specialties', 'Spezialitäten', 'الأطباق الخاصة'),
+    items: [
+      { name: t('Bosanski Lonac', 'Bosnian Pot', 'Bosnischer Topf', 'وعاء بوسني'), description: t('Tradicionalno jelo sa mesom i povrćem', 'Traditional dish with meat and vegetables', 'Traditionelles Gericht mit Fleisch und Gemüse', 'طبق تقليدي باللحم والخضروات'), price: '20 BAM' },
+      { name: t('Bečka Šnicla', 'Viennese Schnitzel', 'Wiener Schnitzel', 'شنيتزل فييني'), description: t('Pohovana teleća šnicla sa krompirom', 'Breaded veal cutlet with potatoes', 'Paniertes Kalbsschnitzel mit Kartoffeln', 'شريحة لحم عجل بالبقسماط مع بطاطس'), price: '18 BAM' },
+      { name: t('Lazanje Bolognese', 'Lasagna Bolognese', 'Lasagne Bolognese', 'لازانيا بولونيز'), description: t('Klasične lazanje sa mljevenim mesom', 'Classic lasagna with minced meat', 'Klassische Lasagne mit Hackfleisch', 'لازانيا كلاسيكية باللحم المفروم'), price: '15 BAM' },
+    ],
+  },
+  {
     id: 'pizzas',
     title: t('Pizze', 'Pizzas', 'Pizzen', 'بيتزا'),
     items: [
@@ -14,15 +23,6 @@ export const menuData: MenuCategory[] = [
       { name: t('City Special', 'City Special', 'City Spezial', 'سيتي سبيشل'), description: t('Paradajz sos, sir, pršut, rukola, cherry paradajz', 'Tomato sauce, cheese, prosciutto, arugula, cherry tomatoes', 'Tomatensauce, Käse, Prosciutto, Rucola, Kirschtomaten', 'صلصة طماطم، جبنة، بروشوتو، جرجير، طماطم كرزية'), price: '16 BAM' },
       { name: t('Mexicana', 'City Special', 'City Spezial', 'سيتي سبيشل'), description: t('Paradajz sos, sir, pršut, rukola, cherry paradajz', 'Tomato sauce, cheese, prosciutto, arugula, cherry tomatoes', 'Tomatensauce, Käse, Prosciutto, Rucola, Kirschtomaten', 'صلصة طماطم، جبنة، بروشوتو، جرجير، طماطم كرزية'), price: '16 BAM' },
 
-    ],
-  },
-  {
-    id: 'special',
-    title: t('Specijaliteti', 'Specialties', 'Spezialitäten', 'الأطباق الخاصة'),
-    items: [
-      { name: t('Bosanski Lonac', 'Bosnian Pot', 'Bosnischer Topf', 'وعاء بوسني'), description: t('Tradicionalno jelo sa mesom i povrćem', 'Traditional dish with meat and vegetables', 'Traditionelles Gericht mit Fleisch und Gemüse', 'طبق تقليدي باللحم والخضروات'), price: '20 BAM' },
-      { name: t('Bečka Šnicla', 'Viennese Schnitzel', 'Wiener Schnitzel', 'شنيتزل فييني'), description: t('Pohovana teleća šnicla sa krompirom', 'Breaded veal cutlet with potatoes', 'Paniertes Kalbsschnitzel mit Kartoffeln', 'شريحة لحم عجل بالبقسماط مع بطاطس'), price: '18 BAM' },
-      { name: t('Lazanje Bolognese', 'Lasagna Bolognese', 'Lasagne Bolognese', 'لازانيا بولونيز'), description: t('Klasične lazanje sa mljevenim mesom', 'Classic lasagna with minced meat', 'Klassische Lasagne mit Hackfleisch', 'لازانيا كلاسيكية باللحم المفروم'), price: '15 BAM' },
     ],
   },
   {
