@@ -319,7 +319,7 @@ export const menuData: MenuCategory[] = [
       price: '8 KM'
     },
     {
-      name: t('Tripe', 'Tripe', 'Kutteln', 'كرشة'),
+      name: t('Tripice', 'Tripe', 'Kutteln', 'كرشة'),
       price: '8 KM'
     },
     {
