@@ -363,12 +363,35 @@ export const menuData: MenuCategory[] = [
   ]
 },
   {
-  id: 'hot-drinks',
+  id: 'hotdrinks',
   title: t('Topli napitci', 'Hot Drinks', 'Heißgetränke', 'مشروبات ساخنة'),
   items: [
-    { name: t('Turska kafa', 'Turkish Coffee', 'Türkischer Kaffee', 'قهوة تركية'), description: t('Tradicionalna turska kafa', 'Traditional Turkish coffee', 'Traditioneller türkischer Kaffee', 'قهوة تركية تقليدية'), price: '2.5 BAM' },
-    ]
-  },
+    {
+      name: t('Kafa', 'Coffee', 'Kaffee', 'قهوة'),
+      price: '1.50 KM'
+    },
+    {
+      name: t('Ness Classic', 'Nescafé Classic', 'Nescafé Classic', 'نسكافيه كلاسيك'),
+      price: '2.10 KM'
+    },
+    {
+      name: t('Ness vanilija', 'Vanilla Nescafé', 'Nescafé Vanille', 'نسكافيه بالفانيليا'),
+      price: '2.50 KM'
+    },
+    {
+      name: t('Ness čokolada', 'Chocolate Nescafé', 'Nescafé Schokolade', 'نسكافيه بالشوكولاتة'),
+      price: '2.50 KM'
+    },
+    {
+      name: t('Topla čokolada', 'Hot chocolate', 'Heiße Schokolade', 'شوكولاتة ساخنة'),
+      price: '3.00 KM'
+    },
+    {
+      name: t('Čaj', 'Tea', 'Tee', 'شاي'),
+      price: '2.50 KM'
+    }
+  ]
+},
   {
   id: 'non-alcoholic-drinks',
   title: t('Bezalkoholna pića', 'Non-Alcoholic Drinks', 'Alkoholfreie Getränke', 'مشروبات غير كحولية'),
