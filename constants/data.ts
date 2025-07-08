@@ -23,6 +23,14 @@ export const menuData: MenuCategory[] = [
     ],
   },
   {
+  id: 'pasta',
+  title: t('Tjestenina', 'Pasta', 'Teigwaren', 'معكرونة'),
+  items: [
+    { name: t('Carbonara', 'Carbonara', 'Carbonara', 'كاربونارا'), description: t('Pasta sa jajima, sirom i slaninom', 'Pasta with eggs, cheese and bacon', 'Pasta mit Ei, Käse und Speck', 'باستا مع البيض والجبن واللحم'), price: '14 BAM' },
+    { name: t('Alfredo', 'Alfredo', 'Alfredo', 'ألفريدو'), description: t('Pasta sa bijelim sosom i piletinom', 'Pasta with white sauce and chicken', 'Pasta mit weißer Soße und Hähnchen', 'باستا مع صلصة بيضاء ودجاج'), price: '15 BAM' },
+  ],
+},
+  {
     id: 'pizzas',
     title: t('Pizze', 'Pizzas', 'Pizzen', 'بيتزا'),
     items: [
