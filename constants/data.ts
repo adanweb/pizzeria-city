@@ -285,9 +285,15 @@ export const menuData: MenuCategory[] = [
   id: 'salads',
   title: t('Salate', 'Salads', 'Salate', 'سلطات'),
   items: [
-    { name: t('Šopska salata', 'Shopska Salad', 'Schopska Salat', 'سلطة شوبسكا'), description: t('Paradajz, krastavac, sir', 'Tomato, cucumber, cheese', 'Tomaten, Gurken, Käse', 'طماطم، خيار، جبنة'), price: '5 BAM' },
-    ]
-  },
+    { name: t('Miješana salata', 'Mixed salad', 'Gemischter Salat', 'سلطة مشكلة'), price: '3 KM' },
+    { name: t('Šopska salata', 'Shopska salad', 'Schopska Salat', 'سلطة شوبسكا'), price: '6 KM' },
+    { name: t('Grčka salata', 'Greek salad', 'Griechischer Salat', 'سلطة يونانية'), price: '6 KM' },
+    { name: t('Salata sa pilećim mesom', 'Chicken salad', 'Salat mit Hähnchenfleisch', 'سلطة بالدجاج'), price: '6 KM' },
+    { name: t('Salata sa tunjevinom', 'Tuna salad', 'Thunfischsalat', 'سلطة بالتونة'), price: '7 KM' },
+    { name: t('Salata sa mozzarellom', 'Mozzarella salad', 'Mozzarella-Salat', 'سلطة بالموزاريلا'), price: '9 KM' },
+    { name: t('City salata', 'City salad', 'City-Salat', 'سلطة سيتي'), price: '9 KM' },
+  ]
+},
   {
   id: 'cold-plates',
   title: t('Hladne plate', 'Cold Plates', 'Kalte Platten', 'أطباق باردة'),
