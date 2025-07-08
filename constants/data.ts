@@ -22,7 +22,7 @@ export const menuData: MenuCategory[] = [
       { name: t('Teletina ispod sača 1kg (prilog + salata)', 'Veal under sač 1kg (sides + salad)', 'Kalbfleisch unter der Glut 1kg (Beilage + Salat)', 'لحم عجل تحت الساچ 1 كغ (طبق جانبي + سلطة)'), price: '45 BAM' },
     ],
   },
-{
+  {
     id: 'city-grill',
     title: t('City Grill', 'City Grill', 'City Grill', 'سيتي جريل'),
     items: [
@@ -54,26 +54,26 @@ export const menuData: MenuCategory[] = [
       { name: t('City - burger (pohovana piletina)', 'City - Burger (breaded chicken)', 'City - Burger (panierte Hähnchen)', 'سيتي - برجر (دجاج مقلي)'), price: '8 BAM' }
     ]
   },
-{
-  id: 'pasta',
-  title: t('Tjestenina', 'Pasta', 'Teigwaren', 'معكرونة'),
-  items: [
-    { name: t('Spaghetti Napoli', 'Spaghetti Napoli', 'Spaghetti Napoli', 'سباغيتي نابولي'), price: '8 BAM' },
-    { name: t('Spaghetti Milanese', 'Spaghetti Milanese', 'Spaghetti Mailänder Art', 'سباغيتي ميلانيز'), price: '9 BAM' },
-    { name: t('Spaghetti Bolognese', 'Spaghetti Bolognese', 'Spaghetti Bolognese', 'سباغيتي بولونيز'), price: '8 BAM' },
-    { name: t('Spaghetti Carbonara', 'Spaghetti Carbonara', 'Spaghetti Carbonara', 'سباغيتي كاربونارا'), price: '10 BAM' },
-    { name: t('Spaghetti Frutti di Mare', 'Spaghetti Frutti di Mare', 'Spaghetti mit Meeresfrüchten', 'سباغيتي مع ثمار البحر'), price: '12 BAM' },
-    { name: t('Tjestenina sa gorgonzolom', 'Pasta with Gorgonzola', 'Pasta mit Gorgonzola', 'باستا مع جورجونزولا'), price: '10 BAM' },
-    { name: t('Tjestenina sa pilećim mesom', 'Pasta with Chicken', 'Pasta mit Hähnchenfleisch', 'باستا مع الدجاج'), price: '8 BAM' },
-    { name: t('Tjestenina sa tunjevinom i sirom', 'Pasta with Tuna and Cheese', 'Pasta mit Thunfisch und Käse', 'باستا مع التونة والجبنة'), price: '10 BAM' },
-    { name: t('Tjestenina 4 vrste sira', 'Four Cheese Pasta', 'Vier-Käse-Pasta', 'باستا أربع أنواع جبنة'), price: '12 BAM' },
-    { name: t('Risotto povrće', 'Vegetable Risotto', 'Gemüse-Risotto', 'ريزوتو بالخضار'), price: '9 BAM' },
-    { name: t('Risotto morski plodovi', 'Seafood Risotto', 'Meeresfrüchte-Risotto', 'ريزوتو بثمار البحر'), price: '12 BAM' },
-    { name: t('Risotto lignje', 'Squid Risotto', 'Tintenfisch-Risotto', 'ريزوتو بالحبار'), price: '15 BAM' },
-    { name: t('Lazanje sa mesom in forno', 'Baked Meat Lasagna', 'Lasagne mit Fleisch aus dem Ofen', 'لازانيا باللحم في الفرن'), price: '8 BAM' },
-    { name: t('Zapečeni makaroni', 'Baked Macaroni', 'Überbackene Makkaroni', 'مكرونة مخبوزة'), price: '8 BAM' },
-  ],
-},
+  {
+    id: 'pasta',
+    title: t('Tjestenina', 'Pasta', 'Teigwaren', 'معكرونة'),
+    items: [
+      { name: t('Spaghetti Napoli', 'Spaghetti Napoli', 'Spaghetti Napoli', 'سباغيتي نابولي'), price: '8 BAM' },
+      { name: t('Spaghetti Milanese', 'Spaghetti Milanese', 'Spaghetti Mailänder Art', 'سباغيتي ميلانيز'), price: '9 BAM' },
+      { name: t('Spaghetti Bolognese', 'Spaghetti Bolognese', 'Spaghetti Bolognese', 'سباغيتي بولونيز'), price: '8 BAM' },
+      { name: t('Spaghetti Carbonara', 'Spaghetti Carbonara', 'Spaghetti Carbonara', 'سباغيتي كاربونارا'), price: '10 BAM' },
+      { name: t('Spaghetti Frutti di Mare', 'Spaghetti Frutti di Mare', 'Spaghetti mit Meeresfrüchten', 'سباغيتي مع ثمار البحر'), price: '12 BAM' },
+      { name: t('Tjestenina sa gorgonzolom', 'Pasta with Gorgonzola', 'Pasta mit Gorgonzola', 'باستا مع جورجونزولا'), price: '10 BAM' },
+      { name: t('Tjestenina sa pilećim mesom', 'Pasta with Chicken', 'Pasta mit Hähnchenfleisch', 'باستا مع الدجاج'), price: '8 BAM' },
+      { name: t('Tjestenina sa tunjevinom i sirom', 'Pasta with Tuna and Cheese', 'Pasta mit Thunfisch und Käse', 'باستا مع التونة والجبنة'), price: '10 BAM' },
+      { name: t('Tjestenina 4 vrste sira', 'Four Cheese Pasta', 'Vier-Käse-Pasta', 'باستا أربع أنواع جبنة'), price: '12 BAM' },
+      { name: t('Risotto povrće', 'Vegetable Risotto', 'Gemüse-Risotto', 'ريزوتو بالخضار'), price: '9 BAM' },
+      { name: t('Risotto morski plodovi', 'Seafood Risotto', 'Meeresfrüchte-Risotto', 'ريزوتو بثمار البحر'), price: '12 BAM' },
+      { name: t('Risotto lignje', 'Squid Risotto', 'Tintenfisch-Risotto', 'ريزوتو بالحبار'), price: '15 BAM' },
+      { name: t('Lazanje sa mesom in forno', 'Baked Meat Lasagna', 'Lasagne mit Fleisch aus dem Ofen', 'لازانيا باللحم في الفرن'), price: '8 BAM' },
+      { name: t('Zapečeni makaroni', 'Baked Macaroni', 'Überbackene Makkaroni', 'مكرونة مخبوزة'), price: '8 BAM' },
+    ],
+  },
   {
     id: 'pizza-33',
     title: t('Pizze 33cm', 'Pizzas 33cm', 'Pizzen 33cm', 'بيتزا 33 سم'),
@@ -187,6 +187,122 @@ export const menuData: MenuCategory[] = [
         name: t('Gondola', 'Gondola', 'Gondola', 'جونديولا'),
         description: t('Pizza-sos, sir, pršut, mozzarella, gljive', 'Tomato sauce, cheese, prosciutto, mozzarella, mushrooms', 'Pizza-Soße, Käse, Prosciutto, Mozzarella, Pilze', 'صلصة طماطم، جبنة، بروسكيتو، موزاريلا، فطر'),
         price: '13 BAM'
+      }
+    ]
+  },
+  {
+    id: 'pizzas-55cm',
+    title: t('Pizze 55cm', 'Pizzas 55cm', 'Pizzen 55cm', 'بيتزا 55 سم'),
+    items: [
+      {
+        name: t('Margarita (55cm)', 'Margherita (55cm)', 'Margherita (55cm)', 'مارغريتا (55 سم)'),
+        description: t('Pizza sos, sir', 'Tomato sauce, cheese', 'Tomatensauce, Käse', 'صلصة طماطم، جبنة'),
+        price: '18 BAM'
+      },
+      {
+        name: t('Nutella (55cm)', 'Nutella (55cm)', 'Nutella (55cm)', 'نوتيلا (55 سم)'),
+        description: t('Nutella', 'Nutella', 'Nutella', 'نوتيلا'),
+        price: '22 BAM'
+      },
+      {
+        name: t('Napolitana (55cm)', 'Napolitana (55cm)', 'Napolitana (55cm)', 'نابوليتانا (55 سم)'),
+        description: t('Pizza sos, šunka, vrhnje', 'Tomato sauce, ham, cream', 'Tomatensauce, Schinken, Sahne', 'صلصة طماطم، لحم، قشطة'),
+        price: '22 BAM'
+      },
+      {
+        name: t('Šunka (55cm)', 'Ham (55cm)', 'Schinken (55cm)', 'لحم (55 سم)'),
+        description: t('Pizza sos, sir, šunka', 'Tomato sauce, cheese, ham', 'Tomatensauce, Käse, Schinken', 'صلصة طماطم، جبنة، لحم'),
+        price: '22 BAM'
+      },
+      {
+        name: t('Fungi (55cm)', 'Fungi (55cm)', 'Fungi (55cm)', 'فطائر (55 سم)'),
+        description: t('Pizza sos, sir, gljive', 'Tomato sauce, cheese, mushrooms', 'Tomatensauce, Käse, Pilze', 'صلصة طماطم، جبنة، فطر'),
+        price: '22 BAM'
+      },
+      {
+        name: t('Capricciosa (55cm)', 'Capricciosa (55cm)', 'Capricciosa (55cm)', 'كابريتشوزا (55 سم)'),
+        description: t('Pizza sos, sir, gljive, šunka', 'Tomato sauce, cheese, mushrooms, ham', 'Tomatensauce, Käse, Pilze, Schinken', 'صلصة طماطم، جبنة، فطر، لحم'),
+        price: '22 BAM'
+      },
+      {
+        name: t('Salami (55cm)', 'Salami (55cm)', 'Salami (55cm)', 'سلامي (55 سم)'),
+        description: t('Pizza sos, sir, kulen', 'Tomato sauce, cheese, spicy sausage', 'Tomatensauce, Käse, scharfe Wurst', 'صلصة طماطم، جبنة، سجق حار'),
+        price: '22 BAM'
+      },
+      {
+        name: t('Vegetariana (55cm)', 'Vegetarian (55cm)', 'Vegetarisch (55cm)', 'نباتي (55 سم)'),
+        description: t('Pizza sos, razno povrće', 'Tomato sauce, mixed vegetables', 'Tomatensauce, gemischtes Gemüse', 'صلصة طماطم، خضروات متنوعة'),
+        price: '22 BAM'
+      },
+      {
+        name: t('Pršut (55cm)', 'Prosciutto (55cm)', 'Prosciutto (55cm)', 'بروشوتو (55 سم)'),
+        description: t('Pizza sos, sir, goveđi pršut', 'Tomato sauce, cheese, beef prosciutto', 'Tomatensauce, Käse, Rinderschinken', 'صلصة طماطم، جبنة، بروسكيوتو بقري'),
+        price: '22 BAM'
+      },
+      {
+        name: t('Peperone (55cm)', 'Pepperoni (55cm)', 'Peperoni (55cm)', 'بيبروني (55 سم)'),
+        description: t('Pizza sos, sir, kulen, feferoni', 'Tomato sauce, cheese, spicy sausage, hot peppers', 'Tomatensauce, Käse, scharfe Wurst, Peperoni', 'صلصة طماطم، جبنة، سجق حار، فلفل حار'),
+        price: '22 BAM'
+      },
+      {
+        name: t('Hawaii (55cm)', 'Hawaii (55cm)', 'Hawaii (55cm)', 'هاواي (55 سم)'),
+        description: t('Pizza sos, sir, šunka, ananas', 'Tomato sauce, cheese, ham, pineapple', 'Tomatensauce, Käse, Schinken, Ananas', 'صلصة طماطم، جبنة، لحم، أناناس'),
+        price: '22 BAM'
+      },
+      {
+        name: t('Al Tonno (55cm)', 'Al Tonno (55cm)', 'Al Tonno (55cm)', 'تونا (55 سم)'),
+        description: t('Pizza sos, sir, tunjevina', 'Tomato sauce, cheese, tuna', 'Tomatensauce, Käse, Thunfisch', 'صلصة طماطم، جبنة، تونة'),
+        price: '22 BAM'
+      },
+      {
+        name: t('Calzone (55cm)', 'Calzone (55cm)', 'Calzone (55cm)', 'كالزوني (55 سم)'),
+        description: t('Pizza sos, sir, gljive, šunka', 'Tomato sauce, cheese, mushrooms, ham', 'Tomatensauce, Käse, Pilze, Schinken', 'صلصة طماطم، جبنة، فطر، لحم'),
+        price: '25 BAM'
+      },
+      {
+        name: t('Kukuriku (55cm)', 'Kukuriku (55cm)', 'Kukuriku (55cm)', 'كوكوريكو (55 سم)'),
+        description: t('Pizza sos, sir, piletina, gljive', 'Tomato sauce, cheese, chicken, mushrooms', 'Tomatensauce, Käse, Hähnchen, Pilze', 'صلصة طماطم، جبنة، دجاج، فطر'),
+        price: '25 BAM'
+      },
+      {
+        name: t('Mozzarella (55cm)', 'Mozzarella (55cm)', 'Mozzarella (55cm)', 'موزاريلا (55 سم)'),
+        description: t('Pizza sos, sir, mozzarella', 'Tomato sauce, cheese, mozzarella', 'Tomatensauce, Käse, Mozzarella', 'صلصة طماطم، جبنة، موزاريلا'),
+        price: '25 BAM'
+      },
+      {
+        name: t('City (55cm)', 'City (55cm)', 'City (55cm)', 'سيتي (55 سم)'),
+        description: t('Pizza sos, sir, šunka, kulen, pršut, gljive', 'Tomato sauce, cheese, ham, spicy sausage, prosciutto, mushrooms', 'Tomatensauce, Käse, Schinken, Wurst, Prosciutto, Pilze', 'صلصة طماطم، جبنة، لحم، سجق، بروشوتو، فطر'),
+        price: '25 BAM'
+      },
+      {
+        name: t('Frutti di Mare (55cm)', 'Frutti di Mare (55cm)', 'Frutti di Mare (55cm)', 'ثمار البحر (55 سم)'),
+        description: t('Pizza sos, sir, plodovi mora', 'Tomato sauce, cheese, seafood', 'Tomatensauce, Käse, Meeresfrüchte', 'صلصة طماطم، جبنة، مأكولات بحرية'),
+        price: '25 BAM'
+      },
+      {
+        name: t('Quattro Formaggi (55cm)', 'Four Cheese (55cm)', 'Vier Käse (55cm)', 'أربعة أجبان (55 سم)'),
+        description: t('4 vrste sira', '4 types of cheese', '4 Käsesorten', '4 أنواع من الجبن'),
+        price: '26 BAM'
+      },
+      {
+        name: t('Fantazija (55cm)', 'Fantasy (55cm)', 'Fantasie (55cm)', 'فانتازيا (55 سم)'),
+        description: t('Pizza sos, sir, šunka, pršut, mozzarella, bukovača, šampinjoni', 'Tomato sauce, cheese, ham, prosciutto, mozzarella, oyster mushroom, champignons', 'Tomatensauce, Käse, Schinken, Prosciutto, Mozzarella, Austernpilze, Champignons', 'صلصة طماطم، جبنة، لحم، بروشوتو، موزاريلا، فطر محاري، فطر أبيض'),
+        price: '27 BAM'
+      },
+      {
+        name: t('Mexicana (55cm)', 'Mexicana (55cm)', 'Mexicana (55cm)', 'مكسيكية (55 سم)'),
+        description: t('Pizza sos, sir, šunka, kulen, feferoni, pršut, rukola', 'Tomato sauce, cheese, ham, spicy sausage, hot peppers, prosciutto, arugula', 'Tomatensauce, Käse, Schinken, Wurst, Peperoni, Prosciutto, Rucola', 'صلصة طماطم، جبنة، لحم، سجق، فلفل، بروشوتو، جرجير'),
+        price: '27 BAM'
+      },
+      {
+        name: t('No1 (55cm)', 'No1 (55cm)', 'No1 (55cm)', 'رقم 1 (55 سم)'),
+        description: t('Pizza sos, sir, šunka, pileća file, bukovača, šampinjoni, kečap, feferoni', 'Tomato sauce, cheese, chicken filet, oyster mushroom, champignons, ketchup, hot peppers', 'Tomatensauce, Käse, Hähnchenfilet, Austernpilze, Champignons, Ketchup, Peperoni', 'صلصة طماطم، جبنة، دجاج، فطر محاري، فطر أبيض، كاتشب، فلفل'),
+        price: '27 BAM'
+      },
+      {
+        name: t('Gondola (55cm)', 'Gondola (55cm)', 'Gondola (55cm)', 'جونديولا (55 سم)'),
+        description: t('Pizza sos, sir, šunka, gljive, vrhnje', 'Tomato sauce, cheese, ham, mushrooms, cream', 'Tomatensauce, Käse, Schinken, Pilze, Sahne', 'صلصة طماطم، جبنة، لحم، فطر، قشطة'),
+        price: '27 BAM'
       }
     ]
   },
