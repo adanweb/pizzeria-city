@@ -311,12 +311,31 @@ export const menuData: MenuCategory[] = [
   ]
 },
   {
-  id: 'cooked-dishes',
-  title: t('Kuhana jela', 'Cooked Dishes', 'Gekochte Gerichte', 'أطباق مطبوخة'),
+  id: 'cookedmeals',
+  title: t('Kuhana jela', 'Cooked Meals', 'Hausgemachte Gerichte', 'الوجبات المطبوخة'),
   items: [
-    { name: t('Sarma', 'Stuffed Cabbage Rolls', 'Gefüllte Kohlrouladen', 'ملفوف محشي'), description: t('Sarma sa mesom i rižom u sosu', 'Cabbage rolls with meat and rice in sauce', 'Kohlrouladen mit Fleisch und Reis in Soße', 'ملفوف محشي باللحم والأرز مع صلصة'), price: '10 BAM' },
-    ]
-  },
+    {
+      name: t('Gulaš', 'Goulash', 'Gulasch', 'غولاش'),
+      price: '8 KM'
+    },
+    {
+      name: t('Tripe', 'Tripe', 'Kutteln', 'كرشة'),
+      price: '8 KM'
+    },
+    {
+      name: t('Sarma', 'Sarma', 'Krautwickel', 'سرما'),
+      price: '8 KM'
+    },
+    {
+      name: t('Grah', 'Beans', 'Bohnen', 'فاصوليا'),
+      price: '7 KM'
+    },
+    {
+      name: t('Punjena paprika', 'Stuffed pepper', 'Gefüllte Paprika', 'فلفل محشي'),
+      price: '8 KM'
+    }
+  ]
+},
   {
   id: 'desserts',
   title: t('Dezert', 'Dessert', 'Dessert', 'حلويات'),
