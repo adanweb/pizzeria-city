@@ -411,12 +411,21 @@ export const menuData: MenuCategory[] = [
   ]
 },
   {
-  id: 'alcoholic-drinks',
+  id: 'alcohol',
   title: t('Alkoholna pića', 'Alcoholic Drinks', 'Alkoholische Getränke', 'مشروبات كحولية'),
   items: [
-    { name: t('Rakija šljivovica', 'Plum Brandy', 'Pflaumenschnaps', 'عرق برقوق'), description: t('Domaća šljivovica', 'Homemade plum rakija', 'Hausgemachter Pflaumenschnaps', 'عرق برقوق منزلي'), price: '3 BAM' },
-    ]
-  },
+    { name: t('Whisky', 'Whisky', 'Whisky', 'ويسكي'), price: '3.00 KM' },
+    { name: t('Viljamovka', 'Williams pear brandy', 'Williamsbirnenbrand', 'مشروب الإجاص فيلياموفكا'), price: '3.00 KM' },
+    { name: t('Jägermeister', 'Jägermeister', 'Jägermeister', 'ياغرمايستر'), price: '3.00 KM' },
+    { name: t('Stock', 'Stock', 'Stock', 'ستوك'), price: '3.00 KM' },
+    { name: t('Konjak', 'Cognac', 'Cognac', 'كونياك'), price: '3.00 KM' },
+    { name: t('Loza', 'Loza brandy', 'Loza Schnaps', 'مشروب كحولي لوزا'), price: '3.00 KM' },
+    { name: t('Vodka', 'Vodka', 'Wodka', 'فودكا'), price: '3.00 KM' },
+    { name: t('Pelinkovac', 'Pelinkovac (herbal liqueur)', 'Pelinkovac (Kräuterlikör)', 'بيلينكوفاتس (مشروب عشبي)'), price: '3.00 KM' },
+    { name: t('Lavov', 'Lavov', 'Lavov', 'لافوف'), price: '2.00 KM' },
+    { name: t('Šljivovica', 'Plum brandy', 'Pflaumenschnaps', 'مشروب البرقوق'), price: '3.00 KM' }
+  ]
+},
   {
   id: 'beer',
   title: t('Pivo', 'Beer', 'Bier', 'بيرة'),
