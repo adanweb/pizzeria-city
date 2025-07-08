@@ -440,12 +440,15 @@ export const menuData: MenuCategory[] = [
   ]
 },
   {
-  id: 'wine',
+  id: 'wines',
   title: t('Vina', 'Wines', 'Weine', 'نبيذ'),
   items: [
-    { name: t('Vranac', 'Vranac Wine', 'Vranac Wein', 'نبيذ فراناك'), description: t('Crveno vino iz Crne Gore', 'Red wine from Montenegro', 'Rotwein aus Montenegro', 'نبيذ أحمر من الجبل الأسود'), price: '6 BAM' },
-    ]
-  }
+    { name: t('Butelja (Vranac Pro Corde)', 'Bottle (Vranac Pro Corde)', 'Flasche (Vranac Pro Corde)', 'زجاجة (فراناتس برو كوردي)'), price: '6.00 KM' },
+    { name: t('Buteljica 0.20 L', 'Small bottle 0.20 L', 'Kleinflasche 0,20 L', 'زجاجة صغيرة 0.20 لتر'), price: '6.00 KM' },
+    { name: t('Vino crno 1L', 'Red wine 1L', 'Rotwein 1L', 'نبيذ أحمر 1 لتر'), price: '22.00 KM' },
+    { name: t('Vino bijelo 1L', 'White wine 1L', 'Weißwein 1L', 'نبيذ أبيض 1 لتر'), price: '22.00 KM' }
+  ]
+}
 ];
 
 export const galleryImages: string[] = [
