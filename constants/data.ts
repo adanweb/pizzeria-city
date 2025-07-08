@@ -224,7 +224,11 @@ export const menuData: MenuCategory[] = [
   items: [
     { name: t('Jager pileći', 'Chicken Jäger', 'Hähnchen Jäger', 'دجاج ييغر'), description: t('Pileća šnicla, jager sos, riža', 'Chicken schnitzel, jäger sauce, rice', 'Hähnchenschnitzel, Jägersoße, Reis', 'شنيتسل دجاج، صوص ييغر، أرز'), price: '10 KM' },
     { name: t('Jager teleći', 'Veal Jäger', 'Kalbs Jäger', 'عجل ييغر'), description: t('Teleća šnicla, jager sos, riža', 'Veal schnitzel, jäger sauce, rice', 'Kalbsschnitzel, Jägersoße, Reis', 'شنيتسل عجل، صوص ييغر، أرز'), price: '16 KM' },
-    { name: t('Bečka šnicla', 'Viennese Schnitzel', 'Wiener Schnitzel', 'شنيتسل فييني'), price: '15 KM' },
+    { 
+  name: t('Bečka šnicla', 'Viennese Schnitzel', 'Wiener Schnitzel', 'شنيتسل فييني'), 
+  description: t('Pohovana teleća šnicla sa prilogom', 'Breaded veal schnitzel with sides', 'Paniertes Kalbsschnitzel mit Beilage', 'شنيتسل لحم عجل مقلي مع طبق جانبي'), 
+  price: '15 KM' 
+},
     { name: t('Bečka šnicla XXL', 'Viennese Schnitzel XXL', 'Wiener Schnitzel XXL', 'شنيتسل فييني XXL'), price: '25 KM' },
     { name: t('Cordon blue', 'Cordon Bleu', 'Cordon Bleu', 'كوردون بلو'), price: '17 KM' },
     { name: t('Teleći medaljoni', 'Veal Medallions', 'Kalbsmedaillons', 'ميداليات لحم العجل'), description: t('Teleća šnicla, sir, pomfrit, pekarski krompir, tartar sos', 'Veal schnitzel, cheese, fries, roasted potatoes, tartar sauce', 'Kalbsschnitzel, Käse, Pommes, Bratkartoffeln, Tartarsoße', 'شنيتسل عجل، جبنة، بطاطا مقلية، بطاطا مشوية، صوص التارتار'), price: '21 KM' },
