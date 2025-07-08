@@ -51,15 +51,90 @@ export const menuData: MenuCategory[] = [
     ],
   },
   {
-    id: 'drinks',
-    title: t('Pića', 'Drinks', 'Getränke', 'مشروبات'),
-    items: [
-      { name: t('Coca-Cola', 'Coca-Cola', 'Coca-Cola', 'كوكا كولا'), price: '4 BAM' },
-      { name: t('Prirodni sok', 'Natural Juice', 'Natursaft', 'عصير طبيعي'), price: '5 BAM' },
-      { name: t('Espresso', 'Espresso', 'Espresso', 'اسبريسو'), price: '2.5 BAM' },
-      { name: t('Pivo', 'Beer', 'Bier', 'بيرة'), price: '5 BAM' },
-    ],
+  id: 'soups',
+  title: t('Supe', 'Soups', 'Suppen', 'شوربات'),
+  items: [
+    { name: t('Goveđa supa', 'Beef Soup', 'Rindfleischsuppe', 'شوربة لحم البقر'), description: t('Domaća goveđa supa s rezancima', 'Homemade beef soup with noodles', 'Hausgemachte Rindfleischsuppe mit Nudeln', 'شوربة لحم بقر منزلية مع المعكرونة'), price: '6 BAM' },
+    ]
   },
+  {
+  id: 'city-breakfast',
+  title: t('City - doručak', 'City - Breakfast', 'City - Frühstück', 'سيتي - فطور'),
+  items: [
+    { name: t('Doručak City', 'City Breakfast', 'City Frühstück', 'فطور المدينة'), description: t('Jaja, sudžuka, sir, hljeb', 'Eggs, sudžuk, cheese, bread', 'Eier, Sucuk, Käse, Brot', 'بيض، سجق، جبنة، خبز'), price: '9 BAM' },
+    ]
+  },
+  {
+  id: 'extras',
+  title: t('Dodaci', 'Extras', 'Extras', 'إضافات'),
+  items: [
+    { name: t('Pomfrit', 'French Fries', 'Pommes Frites', 'بطاطس مقلية'), description: t('Hrskavi pomfrit', 'Crispy fries', 'Knusprige Pommes', 'بطاطس مقلية مقرمشة'), price: '4 BAM' },
+    ]
+  },
+  {
+  id: 'salads',
+  title: t('Salate', 'Salads', 'Salate', 'سلطات'),
+  items: [
+    { name: t('Šopska salata', 'Shopska Salad', 'Schopska Salat', 'سلطة شوبسكا'), description: t('Paradajz, krastavac, sir', 'Tomato, cucumber, cheese', 'Tomaten, Gurken, Käse', 'طماطم، خيار، جبنة'), price: '5 BAM' },
+    ]
+  },
+  {
+  id: 'cold-plates',
+  title: t('Hladne plate', 'Cold Plates', 'Kalte Platten', 'أطباق باردة'),
+  items: [
+    { name: t('Mesna plata', 'Meat Platter', 'Fleischplatte', 'طبق لحوم'), description: t('Pršut, sudžuka, sir', 'Prosciutto, sudžuk, cheese', 'Prosciutto, Sucuk, Käse', 'بروشوتو، سجق، جبنة'), price: '12 BAM' },
+   ]
+  },
+  {
+  id: 'cooked-dishes',
+  title: t('Kuhana jela', 'Cooked Dishes', 'Gekochte Gerichte', 'أطباق مطبوخة'),
+  items: [
+    { name: t('Sarma', 'Stuffed Cabbage Rolls', 'Gefüllte Kohlrouladen', 'ملفوف محشي'), description: t('Sarma sa mesom i rižom u sosu', 'Cabbage rolls with meat and rice in sauce', 'Kohlrouladen mit Fleisch und Reis in Soße', 'ملفوف محشي باللحم والأرز مع صلصة'), price: '10 BAM' },
+    ]
+  },
+  {
+  id: 'desserts',
+  title: t('Dezert', 'Dessert', 'Dessert', 'حلويات'),
+  items: [
+    { name: t('Tufahija', 'Tufahija', 'Tufahija', 'تفاحة محشوة'), description: t('Pečena jabuka punjena orasima', 'Baked apple stuffed with walnuts', 'Gebackener Apfel mit Walnüssen', 'تفاحة مخبوزة محشوة بالجوز'), price: '4 BAM' },
+    ]
+  },
+  {
+  id: 'hot-drinks',
+  title: t('Topli napitci', 'Hot Drinks', 'Heißgetränke', 'مشروبات ساخنة'),
+  items: [
+    { name: t('Turska kafa', 'Turkish Coffee', 'Türkischer Kaffee', 'قهوة تركية'), description: t('Tradicionalna turska kafa', 'Traditional Turkish coffee', 'Traditioneller türkischer Kaffee', 'قهوة تركية تقليدية'), price: '2.5 BAM' },
+    ]
+  },
+  {
+  id: 'non-alcoholic-drinks',
+  title: t('Bezalkoholna pića', 'Non-Alcoholic Drinks', 'Alkoholfreie Getränke', 'مشروبات غير كحولية'),
+  items: [
+    { name: t('Sok od narandže', 'Orange Juice', 'Orangensaft', 'عصير برتقال'), description: t('Svježe cijeđena narandža', 'Freshly squeezed orange', 'Frisch gepresste Orange', 'برتقال طازج معصور'), price: '5 BAM' },
+    ]
+  },
+  {
+  id: 'alcoholic-drinks',
+  title: t('Alkoholna pića', 'Alcoholic Drinks', 'Alkoholische Getränke', 'مشروبات كحولية'),
+  items: [
+    { name: t('Rakija šljivovica', 'Plum Brandy', 'Pflaumenschnaps', 'عرق برقوق'), description: t('Domaća šljivovica', 'Homemade plum rakija', 'Hausgemachter Pflaumenschnaps', 'عرق برقوق منزلي'), price: '3 BAM' },
+    ]
+  },
+  {
+  id: 'beer',
+  title: t('Pivo', 'Beer', 'Bier', 'بيرة'),
+  items: [
+    { name: t('Sarajevsko', 'Sarajevsko Beer', 'Sarajevsko Bier', 'بيرة سراييفو'), description: t('Lager pivo 0.5l', 'Lager beer 0.5l', 'Lagerbier 0,5l', 'بيرة لاجر 0.5 لتر'), price: '4.5 BAM' },
+    ]
+  },
+  {
+  id: 'wine',
+  title: t('Vina', 'Wines', 'Weine', 'نبيذ'),
+  items: [
+    { name: t('Vranac', 'Vranac Wine', 'Vranac Wein', 'نبيذ فراناك'), description: t('Crveno vino iz Crne Gore', 'Red wine from Montenegro', 'Rotwein aus Montenegro', 'نبيذ أحمر من الجبل الأسود'), price: '6 BAM' },
+    ]
+  }
+  {
 ];
 
 export const galleryImages: string[] = [
