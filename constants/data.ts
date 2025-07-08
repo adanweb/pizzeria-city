@@ -28,8 +28,8 @@ export const menuData: MenuCategory[] = [
   items: [
     { name: t('Carbonara', 'Carbonara', 'Carbonara', 'كاربونارا'), description: t('Pasta sa jajima, sirom i slaninom', 'Pasta with eggs, cheese and bacon', 'Pasta mit Ei, Käse und Speck', 'باستا مع البيض والجبن واللحم'), price: '14 BAM' },
     { name: t('Alfredo', 'Alfredo', 'Alfredo', 'ألفريدو'), description: t('Pasta sa bijelim sosom i piletinom', 'Pasta with white sauce and chicken', 'Pasta mit weißer Soße und Hähnchen', 'باستا مع صلصة بيضاء ودجاج'), price: '15 BAM' },
-  ],
-},
+    ],
+  },
   {
     id: 'pizzas',
     title: t('Pizze', 'Pizzas', 'Pizzen', 'بيتزا'),
@@ -40,6 +40,14 @@ export const menuData: MenuCategory[] = [
       { name: t('City Special', 'City Special', 'City Spezial', 'سيتي سبيشل'), description: t('Paradajz sos, sir, pršut, rukola, cherry paradajz', 'Tomato sauce, cheese, prosciutto, arugula, cherry tomatoes', 'Tomatensauce, Käse, Prosciutto, Rucola, Kirschtomaten', 'صلصة طماطم، جبنة، بروشوتو، جرجير، طماطم كرزية'), price: '16 BAM' },
       { name: t('Mexicana', 'City Special', 'City Spezial', 'سيتي سبيشل'), description: t('Paradajz sos, sir, pršut, rukola, cherry paradajz', 'Tomato sauce, cheese, prosciutto, arugula, cherry tomatoes', 'Tomatensauce, Käse, Prosciutto, Rucola, Kirschtomaten', 'صلصة طماطم، جبنة، بروشوتو، جرجير، طماطم كرزية'), price: '16 BAM' },
 
+    ],
+  },
+  {
+  id: 'cityfood',
+  title: t('City Food', 'City Food', 'City Food', 'أطعمة المدينة'),
+  items: [
+    { name: t('Sendvič City', 'City Sandwich', 'City Sandwich', 'شطيرة المدينة'), description: t('Piletina, sir, povrće, umak u tostu', 'Chicken, cheese, veggies, sauce in toast', 'Hähnchen, Käse, Gemüse, Soße im Toast', 'دجاج، جبنة، خضار، صلصة في التوست'), price: '8 BAM' },
+    { name: t('City Burger', 'City Burger', 'City Burger', 'برجر المدينة'), description: t('Goveđa pljeskavica, sir, salata, umak', 'Beef patty, cheese, salad, sauce', 'Rindfleisch-Patty, Käse, Salat, Soße', 'برجر لحم بقري، جبنة، خس، صلصة'), price: '9 BAM' },
     ],
   },
   {
