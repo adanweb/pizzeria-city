@@ -295,12 +295,19 @@ export const menuData: MenuCategory[] = [
   ]
 },
   {
-  id: 'cold-plates',
-  title: t('Hladne plate', 'Cold Plates', 'Kalte Platten', 'أطباق باردة'),
+  id: 'coldplates',
+  title: t('Hladne plate', 'Cold Plates', 'Kalte Platten', 'الأطباق الباردة'),
   items: [
-    { name: t('Mesna plata', 'Meat Platter', 'Fleischplatte', 'طبق لحوم'), description: t('Pršut, sudžuka, sir', 'Prosciutto, sudžuk, cheese', 'Prosciutto, Sucuk, Käse', 'بروشوتو، سجق، جبنة'), price: '12 BAM' },
-   ]
-  },
+    {
+      name: t('Hladna plata (za jednu osobu i pizza brot)', 'Cold plate (for one person and pizza bread)', 'Kalte Platte (für eine Person mit Pizzabrot)', 'طبق بارد (لشخص واحد وخبز بيتزا)'),
+      price: '15 KM'
+    },
+    {
+      name: t('Hladna plata (za 2 osobe i pizza brot)', 'Cold plate (for 2 persons and pizza bread)', 'Kalte Platte (für 2 Personen mit Pizzabrot)', 'طبق بارد (لشخصين وخبز بيتزا)'),
+      price: '30 KM'
+    }
+  ]
+},
   {
   id: 'cooked-dishes',
   title: t('Kuhana jela', 'Cooked Dishes', 'Gekochte Gerichte', 'أطباق مطبوخة'),
