@@ -272,11 +272,15 @@ export const menuData: MenuCategory[] = [
 },
   {
   id: 'extras',
-  title: t('Dodaci', 'Extras', 'Extras', 'إضافات'),
+  title: t('Dodaci', 'Extras', 'Beilagen', 'إضافات'),
   items: [
-    { name: t('Pomfrit', 'French Fries', 'Pommes Frites', 'بطاطس مقلية'), description: t('Hrskavi pomfrit', 'Crispy fries', 'Knusprige Pommes', 'بطاطس مقلية مقرمشة'), price: '4 BAM' },
-    ]
-  },
+    { name: t('Kajmak', 'Kajmak', 'Kajmak', 'قشطة بلقانية'), price: '2 KM' },
+    { name: t('Pommes frites', 'French fries', 'Pommes frites', 'بطاطا مقلية'), price: '2 KM' },
+    { name: t('Sos', 'Sauce', 'Soße', 'صلصة'), price: '2 KM' },
+    { name: t('Bechamel sos', 'Béchamel sauce', 'Béchamelsauce', 'صلصة بشاميل'), price: '2 KM' },
+    { name: t('Pekarski krompir', 'Baked potatoes', 'Backkartoffeln', 'بطاطا مشوية'), price: '2.50 KM' },
+  ]
+},
   {
   id: 'salads',
   title: t('Salate', 'Salads', 'Salate', 'سلطات'),
