@@ -226,7 +226,7 @@ export const menuData: MenuCategory[] = [
     { name: t('Jager teleći', 'Veal Jäger', 'Kalbs Jäger', 'عجل ييغر'), description: t('Teleća šnicla, jager sos, riža', 'Veal schnitzel, jäger sauce, rice', 'Kalbsschnitzel, Jägersoße, Reis', 'شنيتسل عجل، صوص ييغر، أرز'), price: '16 KM' },
     { 
   name: t('Bečka šnicla', 'Viennese Schnitzel', 'Wiener Schnitzel', 'شنيتسل فييني'), 
-  description: t('Pohovana teleća šnicla sa prilogom', 'Breaded veal schnitzel with sides', 'Paniertes Kalbsschnitzel mit Beilage', 'شنيتسل لحم عجل مقلي مع طبق جانبي'), 
+  description: t('Teleća šnicla, pomfrit, tartar sos', 'Veal schnitzel, fries, tartar sauce', 'Kalbsschnitzel, Pommes, Tartarsoße', 'شنيتسل عجل، بطاطا مقلية، صلصة التارتار'), 
   price: '15 KM' 
 },
     { name: t('Bečka šnicla XXL', 'Viennese Schnitzel XXL', 'Wiener Schnitzel XXL', 'شنيتسل فييني XXL'), price: '25 KM' },
