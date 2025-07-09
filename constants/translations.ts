@@ -27,7 +27,7 @@ export const translations = {
       location: "Pronađite nas na mapi",
     },
     footer: {
-      rights: "Sva prava zadržana.",
+      rights: "Sva prava zadržana.\nDesigned",
     },
   },
   en: {
