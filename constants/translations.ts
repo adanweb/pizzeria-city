@@ -73,7 +73,7 @@ export const translations = {
       location: "Finden Sie uns auf der Karte",
     },
     footer: {
-      rights: "Alle Rechte vorbehalten.\nWebseiten-Design und -Entwicklung: Adan Zukančić",
+       rights: "Alle Rechte vorbehalten.\nDesign und Entwicklung der Webseite – Adan Zukančić",
     },
   },
   ar: {
