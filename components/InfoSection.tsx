@@ -36,7 +36,7 @@ const InfoSection: React.FC<InfoSectionProps> = ({ t }) => {
           
           <div className="space-y-6">
             <InfoItem icon={<MapPinIcon />} title={t.address} value={t.addressValue} />
-            <InfoItem icon={<PhoneIcon />} title={t.phone} value="+387 61 234 567" />
+            <InfoItem icon={<PhoneIcon />} title={t.phone} value="+387 37 223-565" />
             <InfoItem icon={<ClockIcon />} title={t.workingHours} value={t.workingHoursValue} />
 
             <div>
