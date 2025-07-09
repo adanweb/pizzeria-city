@@ -39,7 +39,7 @@ const InfoSection: React.FC<InfoSectionProps> = ({ t }) => {
             <InfoItem icon={<MapPinIcon />} title={t.address} value={t.addressValue} />
             <InfoItem icon={<PhoneIcon />} title={t.phone} value="+387 37 223-565" />
             <InfoItem icon={<ClockIcon />} title={t.workingHours} value={t.workingHoursValue1} />
-            <InfoItem icon={<ClockIcon />} title={t.workingHours} value={t.workingHoursValue2} />
+            <InfoItem icon={null} title={""} value={t.workingHoursValue2} />
 
             <div>
               <h3 className="text-lg font-semibold text-amber-400 mb-2">{t.socialMedia}</h3>
