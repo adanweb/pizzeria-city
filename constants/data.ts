@@ -448,12 +448,12 @@ export const menuData: MenuCategory[] = [
 ];
 
 export const galleryImages: string[] = [
-  "https://picsum.photos/seed/pizza1/600/400",
-  "https://picsum.photos/seed/resto1/600/400",
-  "https://picsum.photos/seed/grill1/600/400",
-  "https://picsum.photos/seed/ambience1/600/400",
-  "https://picsum.photos/seed/pasta1/600/400",
-  "https://picsum.photos/seed/drink1/600/400",
-  "https://picsum.photos/seed/ambience2/600/400",
-  "https://picsum.photos/seed/details1/600/400",
+  "/images/city.webp",               // Ambijent restorana – poziv na ulazak
+  "/images/pizza.webp",              // Najpopularnije jelo – odmah vizualni "hook"
+  "/images/lazanje.webp",            // Topla klasika – osjećaj domaće hrane
+  "/images/ramstek.webp",            // Mesni specijalitet – zadovoljava "premium" ukus
+  "/images/mijesano-meso.webp",      // Porodični/platter stil – za društvo
+  "/images/biftek.webp",             // Luksuzniji mesni tanjir – sofisticirano
+  "/images/pileci-file-besamel.webp",// Lagana, kremasta varijanta – za kontrast
+  "/images/palacinke.webp"           // Slatki kraj – desert za emocionalni zaključak
 ];
