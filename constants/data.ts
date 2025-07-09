@@ -75,121 +75,121 @@ export const menuData: MenuCategory[] = [
   ],
 },
   {
-    id: 'pizza-33',
-    title: t('Pizze 33cm', 'Pizzas 33cm', 'Pizzen 33cm', 'بيتزا 33 سم'),
-    items: [
-      {
-        name: t('Margarita', 'Margherita', 'Margherita', 'مارغريتا'),
-        description: t('Pizza-sos, sir', 'Tomato sauce, cheese', 'Pizza-Soße, Käse', 'صلصة طماطم، جبنة'),
-        price: '10 BAM'
-      },
-      {
-        name: t('Nutella', 'Nutella', 'Nutella', 'نوتيلا'),
-        description: t('Nutella', 'Nutella', 'Nutella', 'نوتيلا'),
-        price: '9 BAM'
-      },
-      {
-        name: t('Napolitana', 'Napolitana', 'Napolitana', 'نابوليتانا'),
-        description: t('Pizza-sos, sir, šunka, viršla', 'Tomato sauce, cheese, ham, sausage', 'Pizza-Soße, Käse, Schinken, Wurst', 'صلصة طماطم، جبنة، لحم، نقانق'),
-        price: '9 BAM'
-      },
-      {
-        name: t('Šunka', 'Ham', 'Schinken', 'لحم'),
-        description: t('Pizza-sos, sir, šunka', 'Tomato sauce, cheese, ham', 'Pizza-Soße, Käse, Schinken', 'صلصة طماطم، جبنة، لحم'),
-        price: '9 BAM'
-      },
-      {
-        name: t('Fungi', 'Mushroom', 'Pilze', 'فطر'),
-        description: t('Pizza-sos, sir, gljive', 'Tomato sauce, cheese, mushrooms', 'Pizza-Soße, Käse, Pilze', 'صلصة طماطم، جبنة، فطر'),
-        price: '9 BAM'
-      },
-      {
-        name: t('Capricciosa', 'Capricciosa', 'Capricciosa', 'كابريتشوزا'),
-        description: t('Pizza-sos, gljive, šunka', 'Tomato sauce, mushrooms, ham', 'Pizza-Soße, Pilze, Schinken', 'صلصة طماطم، فطر، لحم'),
-        price: '9 BAM'
-      },
-      {
-        name: t('Salami', 'Salami', 'Salami', 'سلامي'),
-        description: t('Pizza-sos, sir, kulen', 'Tomato sauce, cheese, kulen sausage', 'Pizza-Soße, Käse, Kulen', 'صلصة طماطم، جبنة، كولن'),
-        price: '9 BAM'
-      },
-      {
-        name: t('Vegetariana', 'Vegetarian', 'Vegetarisch', 'نباتية'),
-        description: t('Pizza-sos, razno povrće', 'Tomato sauce, mixed vegetables', 'Pizza-Soße, verschiedenes Gemüse', 'صلصة طماطم، خضار مشكلة'),
-        price: '9 BAM'
-      },
-      {
-        name: t('Pršut', 'Prosciutto', 'Prosciutto', 'بروشوتو'),
-        description: t('Pizza-sos, sir, goveđi pršut', 'Tomato sauce, cheese, beef prosciutto', 'Pizza-Soße, Käse, Rind-Prosciutto', 'صلصة طماطم، جبنة، بروسكيتو بقري'),
-        price: '9 BAM'
-      },
-      {
-        name: t('Peperone', 'Pepperoni', 'Peperoni', 'بيبروني'),
-        description: t('Pizza-sos, sir, kulen, feferoni', 'Tomato sauce, cheese, kulen, hot peppers', 'Pizza-Soße, Käse, Kulen, Peperoni', 'صلصة طماطم، جبنة، كولن، فلفل حار'),
-        price: '9 BAM'
-      },
-      {
-        name: t('Hawaii', 'Hawaii', 'Hawaii', 'هاواي'),
-        description: t('Pizza-sos, sir, šunka, ananas', 'Tomato sauce, cheese, ham, pineapple', 'Pizza-Soße, Käse, Schinken, Ananas', 'صلصة طماطم، جبنة، لحم، أناناس'),
-        price: '9 BAM'
-      },
-      {
-        name: t('Al Tonno', 'Al Tonno', 'Al Tonno', 'تونة'),
-        description: t('Pizza-sos, sir, tunjevina', 'Tomato sauce, cheese, tuna', 'Pizza-Soße, Käse, Thunfisch', 'صلصة طماطم، جبنة، تونة'),
-        price: '9 BAM'
-      },
-      {
-        name: t('Calzone', 'Calzone', 'Calzone', 'كالسوني'),
-        description: t('Pizza-sos, sir, šunka, gljive', 'Tomato sauce, cheese, ham, mushrooms', 'Pizza-Soße, Käse, Schinken, Pilze', 'صلصة طماطم، جبنة، لحم، فطر'),
-        price: '10 BAM'
-      },
-      {
-        name: t('Kukurikuu', 'Kukurikuu', 'Kukurikuu', 'كوكوريكو'),
-        description: t('Pizza-sos, sir, piletina, gljive', 'Tomato sauce, cheese, chicken, mushrooms', 'Pizza-Soße, Käse, Hähnchen, Pilze', 'صلصة طماطم، جبنة، دجاج، فطر'),
-        price: '11 BAM'
-      },
-      {
-        name: t('Mozzarella', 'Mozzarella', 'Mozzarella', 'موزاريلا'),
-        description: t('Pizza-sos, sir, mozzarella', 'Tomato sauce, cheese, mozzarella', 'Pizza-Soße, Käse, Mozzarella', 'صلصة طماطم، جبنة، موزاريلا'),
-        price: '11 BAM'
-      },
-      {
-        name: t('City', 'City', 'City', 'سيتي'),
-        description: t('Pizza-sos, sir, šunka, kulen, pršut, gljive', 'Tomato sauce, cheese, ham, kulen, prosciutto, mushrooms', 'Pizza-Soße, Käse, Schinken, Kulen, Prosciutto, Pilze', 'صلصة طماطم، جبنة، لحم، كولن، بروسكيتو، فطر'),
-        price: '13 BAM'
-      },
-      {
-        name: t('Frutti di Mare', 'Seafood', 'Meeresfrüchte', 'ثمار البحر'),
-        description: t('Pizza-sos, sir, plodovi mora', 'Tomato sauce, cheese, seafood', 'Pizza-Soße, Käse, Meeresfrüchte', 'صلصة طماطم، جبنة، مأكولات بحرية'),
-        price: '12 BAM'
-      },
-      {
-        name: t('Quattro Formaggi', 'Four Cheese', 'Vier Käse', 'أربعة أجبان'),
-        description: t('Pizza-sos, 4 vrste sira', 'Tomato sauce, 4 types of cheese', 'Pizza-Soße, 4 Käsesorten', 'صلصة طماطم، ٤ أنواع جبنة'),
-        price: '12 BAM'
-      },
-      {
-        name: t('Fantazija', 'Fantasy', 'Fantasie', 'فانتازيا'),
-        description: t('Pizza-sos, sir, šunka, pršut, mozzarella, bukovača, šampinjoni', 'Tomato sauce, cheese, ham, prosciutto, mozzarella, oyster mushrooms, champignons', 'Pizza-Soße, Käse, Schinken, Prosciutto, Mozzarella, Austernpilze, Champignons', 'صلصة طماطم، جبنة، لحم، بروسكيتو، موزاريلا، فطر محاري، شامبيونز'),
-        price: '13 BAM'
-      },
-      {
-        name: t('Mexicana', 'Mexicana', 'Mexicana', 'ميكسيكانا'),
-        description: t('Pizza-sos, sir, kulen, paprika, feferoni, kukuruz', 'Tomato sauce, cheese, kulen, peppers, hot peppers, corn', 'Pizza-Soße, Käse, Kulen, Paprika, Peperoni, Mais', 'صلصة طماطم، جبنة، كولن، فلفل، فلفل حار، ذرة'),
-        price: '13 BAM'
-      },
-      {
-        name: t('No1', 'No1', 'No1', 'رقم 1'),
-        description: t('Pizza-sos, sir, piletina file, bukovača, šampinjoni, lešo tikvica', 'Tomato sauce, cheese, chicken fillet, oyster mushrooms, champignons, steamed zucchini', 'Pizza-Soße, Käse, Hähnchenfilet, Austernpilze, Champignons, Zucchini', 'صلصة طماطم، جبنة، دجاج، فطر محاري، فطر، كوسا مسلوقة'),
-        price: '13 BAM'
-      },
-      {
-        name: t('Gondola', 'Gondola', 'Gondola', 'جونديولا'),
-        description: t('Pizza-sos, sir, pršut, mozzarella, gljive', 'Tomato sauce, cheese, prosciutto, mozzarella, mushrooms', 'Pizza-Soße, Käse, Prosciutto, Mozzarella, Pilze', 'صلصة طماطم، جبنة، بروسكيتو، موزاريلا، فطر'),
-        price: '13 BAM'
-      }
-    ]
-  },
+  id: 'pizza-33',
+  title: t('Pizze 33cm', 'Pizzas 33cm', 'Pizzen 33cm', 'بيتزا 33 سم'),
+  items: [
+    {
+      name: t('Margarita', 'Margherita', 'Margherita', 'مارغريتا'),
+      description: t('Pizza-sos, sir', 'Tomato sauce, cheese', 'Pizza-Soße, Käse', 'صلصة طماطم، جبنة'),
+      price: '10,00 KM'
+    },
+    {
+      name: t('Nutella', 'Nutella', 'Nutella', 'نوتيلا'),
+      description: t('Nutella', 'Nutella', 'Nutella', 'نوتيلا'),
+      price: '9,00 KM'
+    },
+    {
+      name: t('Napolitana', 'Napolitana', 'Napolitana', 'نابوليتانا'),
+      description: t('Pizza-sos, sir, šunka, viršla', 'Tomato sauce, cheese, ham, sausage', 'Pizza-Soße, Käse, Schinken, Wurst', 'صلصة طماطم، جبنة، لحم، نقانق'),
+      price: '9,00 KM'
+    },
+    {
+      name: t('Šunka', 'Ham', 'Schinken', 'لحم'),
+      description: t('Pizza-sos, sir, šunka', 'Tomato sauce, cheese, ham', 'Pizza-Soße, Käse, Schinken', 'صلصة طماطم، جبنة، لحم'),
+      price: '9,00 KM'
+    },
+    {
+      name: t('Fungi', 'Mushroom', 'Pilze', 'فطر'),
+      description: t('Pizza-sos, sir, gljive', 'Tomato sauce, cheese, mushrooms', 'Pizza-Soße, Käse, Pilze', 'صلصة طماطم، جبنة، فطر'),
+      price: '9,00 KM'
+    },
+    {
+      name: t('Capricciosa', 'Capricciosa', 'Capricciosa', 'كابريتشوزا'),
+      description: t('Pizza-sos, gljive, šunka', 'Tomato sauce, mushrooms, ham', 'Pizza-Soße, Pilze, Schinken', 'صلصة طماطم، فطر، لحم'),
+      price: '9,00 KM'
+    },
+    {
+      name: t('Salami', 'Salami', 'Salami', 'سلامي'),
+      description: t('Pizza-sos, sir, kulen', 'Tomato sauce, cheese, kulen sausage', 'Pizza-Soße, Käse, Kulen', 'صلصة طماطم، جبنة، كولن'),
+      price: '9,00 KM'
+    },
+    {
+      name: t('Vegetariana', 'Vegetarian', 'Vegetarisch', 'نباتية'),
+      description: t('Pizza-sos, razno povrće', 'Tomato sauce, mixed vegetables', 'Pizza-Soße, verschiedenes Gemüse', 'صلصة طماطم، خضار مشكلة'),
+      price: '9,00 KM'
+    },
+    {
+      name: t('Pršut', 'Prosciutto', 'Prosciutto', 'بروشوتو'),
+      description: t('Pizza-sos, sir, goveđi pršut', 'Tomato sauce, cheese, beef prosciutto', 'Pizza-Soße, Käse, Rind-Prosciutto', 'صلصة طماطم، جبنة، بروسكيتو بقري'),
+      price: '9,00 KM'
+    },
+    {
+      name: t('Peperone', 'Pepperoni', 'Peperoni', 'بيبروني'),
+      description: t('Pizza-sos, sir, kulen, feferoni', 'Tomato sauce, cheese, kulen, hot peppers', 'Pizza-Soße, Käse, Kulen, Peperoni', 'صلصة طماطم، جبنة، كولن، فلفل حار'),
+      price: '9,00 KM'
+    },
+    {
+      name: t('Hawaii', 'Hawaii', 'Hawaii', 'هاواي'),
+      description: t('Pizza-sos, sir, šunka, ananas', 'Tomato sauce, cheese, ham, pineapple', 'Pizza-Soße, Käse, Schinken, Ananas', 'صلصة طماطم، جبنة، لحم، أناناس'),
+      price: '9,00 KM'
+    },
+    {
+      name: t('Al Tonno', 'Al Tonno', 'Al Tonno', 'تونة'),
+      description: t('Pizza-sos, sir, tunjevina', 'Tomato sauce, cheese, tuna', 'Pizza-Soße, Käse, Thunfisch', 'صلصة طماطم، جبنة، تونة'),
+      price: '9,00 KM'
+    },
+    {
+      name: t('Calzone', 'Calzone', 'Calzone', 'كالسوني'),
+      description: t('Pizza-sos, sir, šunka, gljive', 'Tomato sauce, cheese, ham, mushrooms', 'Pizza-Soße, Käse, Schinken, Pilze', 'صلصة طماطم، جبنة، لحم، فطر'),
+      price: '10,00 KM'
+    },
+    {
+      name: t('Kukurikuu', 'Kukurikuu', 'Kukurikuu', 'كوكوريكو'),
+      description: t('Pizza-sos, sir, piletina, gljive', 'Tomato sauce, cheese, chicken, mushrooms', 'Pizza-Soße, Käse, Hähnchen, Pilze', 'صلصة طماطم، جبنة، دجاج، فطر'),
+      price: '11,00 KM'
+    },
+    {
+      name: t('Mozzarella', 'Mozzarella', 'Mozzarella', 'موزاريلا'),
+      description: t('Pizza-sos, sir, mozzarella', 'Tomato sauce, cheese, mozzarella', 'Pizza-Soße, Käse, Mozzarella', 'صلصة طماطم، جبنة، موزاريلا'),
+      price: '11,00 KM'
+    },
+    {
+      name: t('City', 'City', 'City', 'سيتي'),
+      description: t('Pizza-sos, sir, šunka, kulen, pršut, gljive', 'Tomato sauce, cheese, ham, kulen, prosciutto, mushrooms', 'Pizza-Soße, Käse, Schinken, Kulen, Prosciutto, Pilze', 'صلصة طماطم، جبنة، لحم، كولن، بروسكيتو، فطر'),
+      price: '13,00 KM'
+    },
+    {
+      name: t('Frutti di Mare', 'Seafood', 'Meeresfrüchte', 'ثمار البحر'),
+      description: t('Pizza-sos, sir, plodovi mora', 'Tomato sauce, cheese, seafood', 'Pizza-Soße, Käse, Meeresfrüchte', 'صلصة طماطم، جبنة، مأكولات بحرية'),
+      price: '12,00 KM'
+    },
+    {
+      name: t('Quattro Formaggi', 'Four Cheese', 'Vier Käse', 'أربعة أجبان'),
+      description: t('Pizza-sos, 4 vrste sira', 'Tomato sauce, 4 types of cheese', 'Pizza-Soße, 4 Käsesorten', 'صلصة طماطم، ٤ أنواع جبنة'),
+      price: '12,00 KM'
+    },
+    {
+      name: t('Fantazija', 'Fantasy', 'Fantasie', 'فانتازيا'),
+      description: t('Pizza-sos, sir, šunka, pršut, mozzarella, bukovača, šampinjoni', 'Tomato sauce, cheese, ham, prosciutto, mozzarella, oyster mushrooms, champignons', 'Pizza-Soße, Käse, Schinken, Prosciutto, Mozzarella, Austernpilze, Champignons', 'صلصة طماطم، جبنة، لحم، بروسكيتو، موزاريلا، فطر محاري، شامبيونز'),
+      price: '13,00 KM'
+    },
+    {
+      name: t('Mexicana', 'Mexicana', 'Mexicana', 'ميكسيكانا'),
+      description: t('Pizza-sos, sir, kulen, paprika, feferoni, kukuruz', 'Tomato sauce, cheese, kulen, peppers, hot peppers, corn', 'Pizza-Soße, Käse, Kulen, Paprika, Peperoni, Mais', 'صلصة طماطم، جبنة، كولن، فلفل، فلفل حار، ذرة'),
+      price: '13,00 KM'
+    },
+    {
+      name: t('No1', 'No1', 'No1', 'رقم 1'),
+      description: t('Pizza-sos, sir, piletina file, bukovača, šampinjoni, lešo tikvica', 'Tomato sauce, cheese, chicken fillet, oyster mushrooms, champignons, steamed zucchini', 'Pizza-Soße, Käse, Hähnchenfilet, Austernpilze, Champignons, Zucchini', 'صلصة طماطم، جبنة، دجاج، فطر محاري، فطر، كوسا مسلوقة'),
+      price: '13,00 KM'
+    },
+    {
+      name: t('Gondola', 'Gondola', 'Gondola', 'جونديولا'),
+      description: t('Pizza-sos, sir, pršut, mozzarella, gljive', 'Tomato sauce, cheese, prosciutto, mozzarella, mushrooms', 'Pizza-Soße, Käse, Prosciutto, Mozzarella, Pilze', 'صلصة طماطم، جبنة، بروسكيتو، موزاريلا، فطر'),
+      price: '13,00 KM'
+    }
+  ]
+},
   {
     id: 'pizzas-55cm',
     title: t('Pizze 55 cm', 'Pizzas 55 cm', 'Pizzen 55 cm', 'بيتزا 55 سم'),
