@@ -17,7 +17,9 @@ const App: React.FC = () => {
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex items-center justify-between h-20">
             <div className="flex items-center space-x-3">
-              <PizzeriaCityLogo className="h-10 w-10 text-amber-400" />
+              <a href="/">
+  <img src="/logo.png" alt="Pizzeria City Logo" className="h-10 w-10" />
+</a>
               <h1 className="font-display text-2xl sm:text-3xl font-bold text-white tracking-wider">
                 Pizzeria City
               </h1>
