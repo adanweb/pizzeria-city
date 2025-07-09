@@ -5,7 +5,7 @@ import LanguageSwitcher from './components/LanguageSwitcher';
 import MenuSection from './components/MenuSection';
 import GallerySection from './components/GallerySection';
 import InfoSection from './components/InfoSection';
-import { PizzeriaCityLogo } from './components/icons';
+import { PizzeriaCityLogo } from './public/logo-02.png';
 
 const App: React.FC = () => {
   const [language, setLanguage] = useState<Language>('bs');
