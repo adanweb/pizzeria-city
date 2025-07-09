@@ -35,7 +35,7 @@ const App: React.FC = () => {
 
       <footer className="bg-gray-950/50 py-6 mt-12">
           <div className="text-center text-gray-400 text-sm">
-              <p>&copy; {new Date().getFullYear()} Pizzeria City, Bihać. {t.footer.rights}</p>
+              <p>&copy; {new Date().getFullYear()} Pizzeria City, Bihać. {<span className="whitespace-pre-line">{t.footer.rights}</span>}</p>
           </div>
       </footer>
     </div>
