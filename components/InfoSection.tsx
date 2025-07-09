@@ -9,7 +9,8 @@ interface InfoSectionProps {
     addressValue: string;
     phone: string;
     workingHours: string;
-    workingHoursValue: string;
+    workingHoursValue1: string;
+    workingHoursValue2: string;
     socialMedia: string;
     location: string;
   };
