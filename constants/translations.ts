@@ -88,7 +88,7 @@ export const translations = {
     info: {
       title: "المعلومات والاتصال",
       address: "العنوان",
-      addressValue: "Bosanskih šehida, Bihać 77000, البوسنة والهرسك",
+      addressValue: "٥٠٢. لواء الفرسان، بيهاتش، البوسنة والهرسك",
       phone: "الهاتف",
       workingHours: "ساعات العمل",
       workingHoursValue: "كل يوم: 07:00 - 23:00",
