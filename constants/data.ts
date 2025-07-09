@@ -251,20 +251,19 @@ export const menuData: MenuCategory[] = [
   id: 'soups',
   title: t('Supe', 'Soups', 'Suppen', 'الشوربات'),
   items: [
-    { name: t('Supa od paradajza', 'Tomato Soup', 'Tomatensuppe', 'شوربة طماطم'), price: '4 KM' },
-    { name: t('Supa goveđa', 'Beef Soup', 'Rindfleischsuppe', 'شوربة لحم البقر'), price: '4 KM' },
-    { name: t('Krem juha od gljiva', 'Cream of Mushroom Soup', 'Champignoncremesuppe', 'شوربة كريمة الفطر'), price: '4 KM' },
-    { name: t('Begova čorba', 'Bey’s Soup', 'Bey-Suppe', 'شوربة بيك'), price: '4 KM' },
-    { name: t('Trahana', 'Tarhana', 'Tarhana', 'طرهانا'), price: '4 KM' },
+    { name: t('Supa od paradajza', 'Tomato Soup', 'Tomatensuppe', 'شوربة طماطم'), price: '4,00 KM' },
+    { name: t('Supa goveđa', 'Beef Soup', 'Rindfleischsuppe', 'شوربة لحم البقر'), price: '4,00 KM' },
+    { name: t('Krem juha od gljiva', 'Cream of Mushroom Soup', 'Champignoncremesuppe', 'شوربة كريمة الفطر'), price: '4,00 KM' },
+    { name: t('Begova čorba', 'Bey’s Soup', 'Bey-Suppe', 'شوربة بيك'), price: '4,00 KM' },
+    { name: t('Trahana', 'Tarhana', 'Tarhana', 'طرهانا'), price: '4,00 KM' }
   ]
 },
   {
   id: 'city-breakfast',
   title: t('City – doručak', 'City – Breakfast', 'City – Frühstück', 'فطور سيتي'),
   items: [
-    { name: t('City – doručak', 'City – Breakfast', 'City – Frühstück', 'فطور سيتي'), price: '8 KM' },
-    { name: t('Omlette', 'Omelette', 'Omelett', 'عجة بيض'), price: '6.90 KM' },
-  ]
+    { name: t('City – doručak', 'City – Breakfast', 'City – Frühstück', 'فطور سيتي'), price: '8,00 KM' },
+    { name: t('Omlette', 'Omelette', 'Omelett', 'عجة بيض'), price: '6,00 KM' }
 },
   {
   id: 'extras',
