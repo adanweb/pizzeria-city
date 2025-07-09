@@ -27,7 +27,7 @@ export const translations = {
       location: "Pronađite nas na mapi",
     },
     footer: {
-      rights: "Sva prava zadržana.\nDesigned",
+      rights: "Sva prava zadržana.\nDizajn i razvoj web stranice: Adan Zukančić",
     },
   },
   en: {
@@ -50,7 +50,7 @@ export const translations = {
       location: "Find us on the map",
     },
     footer: {
-      rights: "All rights reserved.",
+      rights: "All rights reserved.\nWebsite design and development: Adan Zukančić",
     },
   },
   de: {
@@ -73,7 +73,7 @@ export const translations = {
       location: "Finden Sie uns auf der Karte",
     },
     footer: {
-      rights: "Alle Rechte vorbehalten.",
+      rights: "Alle Rechte vorbehalten.\nWebseiten-Design und -Entwicklung: Adan Zukančić",
     },
   },
   ar: {
@@ -96,7 +96,7 @@ export const translations = {
       location: "اعثر علينا على الخريطة",
     },
     footer: {
-      rights: "كل الحقوق محفوظة.",
+      rights: "جميع الحقوق محفوظة.\nتصميم وتطوير الموقع: عدنان زوكانتشيتش",
     },
   },
 };
