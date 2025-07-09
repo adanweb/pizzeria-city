@@ -270,24 +270,24 @@ export const menuData: MenuCategory[] = [
   id: 'extras',
   title: t('Dodaci', 'Extras', 'Beilagen', 'إضافات'),
   items: [
-    { name: t('Kajmak', 'Kajmak', 'Kajmak', 'قشطة بلقانية'), price: '2 KM' },
-    { name: t('Pommes frites', 'French fries', 'Pommes frites', 'بطاطا مقلية'), price: '2 KM' },
-    { name: t('Sos', 'Sauce', 'Soße', 'صلصة'), price: '2 KM' },
-    { name: t('Bechamel sos', 'Béchamel sauce', 'Béchamelsauce', 'صلصة بشاميل'), price: '2 KM' },
-    { name: t('Pekarski krompir', 'Baked potatoes', 'Backkartoffeln', 'بطاطا مشوية'), price: '2.50 KM' },
+    { name: t('Kajmak', 'Kajmak', 'Kajmak', 'قشطة بلقانية'), price: '2,00 KM' },
+    { name: t('Pommes frites', 'French fries', 'Pommes frites', 'بطاطا مقلية'), price: '2,00 KM' },
+    { name: t('Sos', 'Sauce', 'Soße', 'صلصة'), price: '2,00 KM' },
+    { name: t('Bechamel sos', 'Béchamel sauce', 'Béchamelsauce', 'صلصة بشاميل'), price: '2,00 KM' },
+    { name: t('Pekarski krompir', 'Baked potatoes', 'Backkartoffeln', 'بطاطا مشوية'), price: '2,50 KM' }
   ]
 },
   {
   id: 'salads',
   title: t('Salate', 'Salads', 'Salate', 'سلطات'),
   items: [
-    { name: t('Miješana salata', 'Mixed salad', 'Gemischter Salat', 'سلطة مشكلة'), price: '3 KM' },
-    { name: t('Šopska salata', 'Shopska salad', 'Schopska Salat', 'سلطة شوبسكا'), price: '6 KM' },
-    { name: t('Grčka salata', 'Greek salad', 'Griechischer Salat', 'سلطة يونانية'), price: '6 KM' },
-    { name: t('Salata sa pilećim mesom', 'Chicken salad', 'Salat mit Hähnchenfleisch', 'سلطة بالدجاج'), price: '6 KM' },
-    { name: t('Salata sa tunjevinom', 'Tuna salad', 'Thunfischsalat', 'سلطة بالتونة'), price: '7 KM' },
-    { name: t('Salata sa mozzarellom', 'Mozzarella salad', 'Mozzarella-Salat', 'سلطة بالموزاريلا'), price: '9 KM' },
-    { name: t('City salata', 'City salad', 'City-Salat', 'سلطة سيتي'), price: '9 KM' },
+    { name: t('Miješana salata', 'Mixed salad', 'Gemischter Salat', 'سلطة مشكلة'), price: '3,00 KM' },
+    { name: t('Šopska salata', 'Shopska salad', 'Schopska Salat', 'سلطة شوبسكا'), price: '6,00 KM' },
+    { name: t('Grčka salata', 'Greek salad', 'Griechischer Salat', 'سلطة يونانية'), price: '6,00 KM' },
+    { name: t('Salata sa pilećim mesom', 'Chicken salad', 'Salat mit Hähnchenfleisch', 'سلطة بالدجاج'), price: '6,00 KM' },
+    { name: t('Salata sa tunjevinom', 'Tuna salad', 'Thunfischsalat', 'سلطة بالتونة'), price: '7,00 KM' },
+    { name: t('Salata sa mozzarellom', 'Mozzarella salad', 'Mozzarella-Salat', 'سلطة بالموزاريلا'), price: '9,00 KM' },
+    { name: t('City salata', 'City salad', 'City-Salat', 'سلطة سيتي'), price: '9,00 KM' }
   ]
 },
   {
@@ -297,12 +297,12 @@ export const menuData: MenuCategory[] = [
     {
       name: t('Hladna plata', 'Cold plate', 'Kalte Platte', 'طبق بارد'),
       description: t('za jednu osobu i pizza brot', 'for one person and pizza bread', 'für eine Person mit Pizzabrot', 'لشخص واحد وخبز بيتزا'),
-      price: '15 KM'
+      price: '15,00 KM'
     },
     {
       name: t('Hladna plata', 'Cold plate', 'Kalte Platte', 'طبق بارد'),
       description: t('za 2 osobe i pizza brot', 'for 2 persons and pizza bread', 'für 2 Personen mit Pizzabrot', 'لشخصين وخبز بيتزا'),
-      price: '30 KM'
+      price: '30,00 KM'
     }
   ]
 },
@@ -312,23 +312,23 @@ export const menuData: MenuCategory[] = [
   items: [
     {
       name: t('Gulaš', 'Goulash', 'Gulasch', 'غولاش'),
-      price: '8 KM'
+      price: '8,00 KM'
     },
     {
       name: t('Tripice', 'Tripe', 'Kutteln', 'كرشة'),
-      price: '8 KM'
+      price: '8,00 KM'
     },
     {
       name: t('Sarma', 'Sarma', 'Krautwickel', 'سرما'),
-      price: '8 KM'
+      price: '8,00 KM'
     },
     {
       name: t('Grah', 'Beans', 'Bohnen', 'فاصوليا'),
-      price: '7 KM'
+      price: '7,00 KM'
     },
     {
       name: t('Punjena paprika', 'Stuffed pepper', 'Gefüllte Paprika', 'فلفل محشي'),
-      price: '8 KM'
+      price: '8,00 KM'
     }
   ]
 },
@@ -338,23 +338,23 @@ export const menuData: MenuCategory[] = [
   items: [
     {
       name: t('Palačinke sa eurokremom', 'Pancakes with Eurocream', 'Pfannkuchen mit Eurocreme', 'فطائر مع يوروكريم'),
-      price: '4 KM'
+      price: '4,00 KM'
     },
     {
       name: t('Palačinke sa orasima', 'Pancakes with walnuts', 'Pfannkuchen mit Walnüssen', 'فطائر مع الجوز'),
-      price: '4 KM'
+      price: '4,00 KM'
     },
     {
       name: t('Palačinke sa keksom', 'Pancakes with biscuit', 'Pfannkuchen mit Keks', 'فطائر مع البسكويت'),
-      price: '4 KM'
+      price: '4,00 KM'
     },
     {
       name: t('Palačinke sa šumskim voćem', 'Pancakes with forest fruit', 'Pfannkuchen mit Waldfrüchten', 'فطائر مع فواكه الغابة'),
-      price: '4 KM'
+      price: '4,00 KM'
     },
     {
       name: t('Kolač', 'Cake', 'Kuchen', 'كيك'),
-      price: '4 KM'
+      price: '4,00 KM'
     }
   ]
 },
