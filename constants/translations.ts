@@ -19,7 +19,7 @@ export const translations = {
     info: {
       title: "Informacije i Kontakt",
       address: "Adresa",
-      addressValue: "Bosanskih šehida, Bihać 77000, Bosna i Hercegovina",
+      addressValue: "502. Viteške Brigade, Bihac, Bosnia and Herzegovina",
       phone: "Telefon",
       workingHours: "Radno Vrijeme",
       workingHoursValue: "Svaki dan: 07:00 - 23:00",
