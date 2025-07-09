@@ -262,8 +262,9 @@ export const menuData: MenuCategory[] = [
   id: 'city-breakfast',
   title: t('City – doručak', 'City – Breakfast', 'City – Frühstück', 'فطور سيتي'),
   items: [
-    { name: t('City – doručak', 'City – Breakfast', 'City – Frühstück', 'فطور سيتي'), price: '8,00 KM' },
-    { name: t('Omlette', 'Omelette', 'Omelett', 'عجة بيض'), price: '6,00 KM' }
+    { name: t('Omlette', 'Omelette', 'Omelett', 'عجة بيض'), price: '6,00 KM' },
+    { name: t('City – doručak', 'City – Breakfast', 'City – Frühstück', 'فطور سيتي'), price: '8,00 KM' }
+  ]
 },
   {
   id: 'extras',
