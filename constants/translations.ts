@@ -22,7 +22,7 @@ export const translations = {
       addressValue: "502. Viteške Brigade, Bihac, Bosnia and Herzegovina",
       phone: "Telefon",
       workingHours: "Radno Vrijeme",
-      workingHoursValue: "Pon - Sub: 07:00 - 23:00, Ned: 11:00 - 22:00",
+      workingHoursValue: "Pon - Sub: 07:00 - 23:00\nNed: 11:00 - 22:00",
       socialMedia: "Društvene Mreže",
       location: "Pronađite nas na mapi",
     },
