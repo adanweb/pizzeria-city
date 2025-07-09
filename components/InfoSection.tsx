@@ -42,7 +42,7 @@ const InfoSection: React.FC<InfoSectionProps> = ({ t }) => {
   title={t.workingHours}
   value={
     <>
-      <div>Pon - Sub: 07:00 - 23:00</div>
+      <div>Ponedjeljak - Subota: 07:00 - 23:00</div>
       <div>Nedjelja: 11:00 - 22:00</div>
     </>
   }
