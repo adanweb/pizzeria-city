@@ -5,7 +5,6 @@ import LanguageSwitcher from './components/LanguageSwitcher';
 import MenuSection from './components/MenuSection';
 import GallerySection from './components/GallerySection';
 import InfoSection from './components/InfoSection';
-import { PizzeriaCityLogo } from './public/logo-02.png';
 
 const App: React.FC = () => {
   const [language, setLanguage] = useState<Language>('bs');
@@ -17,9 +16,7 @@ const App: React.FC = () => {
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex items-center justify-between h-20">
             <div className="flex items-center space-x-3">
-              <a href="/">
-  <img src="./public/logo-02.png" alt="Pizzeria City Logo" className="h-10 w-10" />
-</a>
+              <img src="/logo-02.png" alt="Pizzeria City Logo" className="h-10 w-10" />
               <h1 className="font-display text-2xl sm:text-3xl font-bold text-white tracking-wider">
                 Pizzeria City
               </h1>
