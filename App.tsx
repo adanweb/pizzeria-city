@@ -16,7 +16,7 @@ const App: React.FC = () => {
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex items-center justify-between h-20">
             <div className="flex items-center space-x-3">
-              <img src="/logo-02.png" alt="Pizzeria City Logo" className="h-10 w-10" />
+              <img src="/pizzeria-city-logo.png" alt="Pizzeria City Logo" className="h-10 w-10 rounded-lg" />
               <h1 className="font-display text-2xl sm:text-3xl font-bold text-white tracking-wider">
                 Pizzeria City
               </h1>
