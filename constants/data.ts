@@ -91,7 +91,7 @@ export const menuData: MenuCategory[] = [
     },
     {
       name: t('Napolitana', 'Napolitana', 'Napolitana', 'نابوليتانا'),
-      description: t('Pizza-sos, sir, šunka, viršla', 'Tomato sauce, cheese, ham, sausage', 'Pizza-Soße, Käse, Schinken, Wurst', 'صلصة طماطم، جبنة، لحم، نقانق'),
+      description: t('Pizza-sos, šunka, vrhnje', 'Tomato sauce, ham, cream', 'Pizza-Soße, Schinken, Sahne', 'صلصة طماطم، لحم، كريمة'),
       price: '9,00 KM'
     },
     {
