@@ -271,7 +271,7 @@ export const menuData: MenuCategory[] = [
     { name: t('Šampinjoni na žaru', 'Grilled Mushrooms', 'Gegrillte Champignons', 'فطر مشوي'), description: t('Pečeni šampinjoni na žaru', 'Grilled champignons', 'Gegrillte Champignons', 'فطر شامبينيو مشوي'), price: '7,00 KM' },
     { name: t('Pepper steak', 'Pepper Steak', 'Pfeffersteak', 'ستيك بالفلفل'), description: t('Goveđi steak sa biber sosom', 'Beef steak with pepper sauce', 'Rindersteak mit Pfeffersoße', 'ستيك بقري مع صلصة الفلفل'), price: '19,00 KM' },
     { name: t('City tortilja', 'City Tortilla', 'City Tortilla', 'تورتيلا سيتي'), description: t('Tortilja sa piletinom i povrćem', 'Tortilla with chicken and vegetables', 'Tortilla mit Hähnchen und Gemüse', 'تورتيلا بالدجاج والخضار'), price: '8,00 KM' },
-    { name: t('Teleća jetrca + prilog', 'Veal Liver + Sides', 'Kalbsleber + Beilage', 'كبدة عجل + طبق جانبي'), description: t('Teleća jetra sa prilogom po izboru', 'Veal liver with side of choice', 'Kalbsleber mit Beilage nach Wahl', 'كبدة عجل مع طبق جانبي'), price: '14,00 KM' },
+    { name: t('Teleća jetrica + prilog', 'Veal Liver + Sides', 'Kalbsleber + Beilage', 'كبدة عجل + طبق جانبي'), description: t('Teleća jetra sa prilogom po izboru', 'Veal liver with side of choice', 'Kalbsleber mit Beilage nach Wahl', 'كبدة عجل مع طبق جانبي'), price: '14,00 KM' },
     { name: t('Teleće pečenje + prilog', 'Roasted Veal + Sides', 'Kalbsbraten + Beilage', 'عجل مشوي + طبق جانبي'), description: t('Pečeno teleće meso sa prilogom', 'Roasted veal with side dish', 'Kalbsbraten mit Beilage', 'لحم عجل مشوي مع طبق جانبي'), price: '15,00 KM' }
   ]
 },
