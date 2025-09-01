@@ -321,7 +321,7 @@ export const menuData: MenuCategory[] = [
     },
     {
       name: t('Sarma', 'Sarma', 'Krautwickel', 'سرما'),
-      price: 'X'
+      price: ''
     },
     {
       name: t('Grah', 'Beans', 'Bohnen', 'فاصوليا'),
