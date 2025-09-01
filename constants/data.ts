@@ -401,11 +401,11 @@ export const menuData: MenuCategory[] = [
     { name: t('Narandža cijeđena', 'Fresh orange juice', 'Frisch gepresster Orangensaft', 'عصير برتقال طازج'), price: '4,00 KM' },
     { name: t('Mineralna voda', 'Mineral Water', 'Mineralwasser', 'مياه معدنية'), price: '2,00 KM' },
     { name: t('Mineralna voda 1L', 'Mineral water 1L', 'Mineralwasser 1L', 'ماء معدني 1 لتر'), price: '6,00 KM' },
-    { name: t('Prirodna voda 0.70L', 'Still water 0.70L', 'Stilles Wasser 0.70L', 'ماء طبيعي 0.70 لتر'), price: '2,00 KM' },
-    { name: t('Prirodna voda 0.25L', 'Still water 0.25L', 'Stilles Wasser 0.25L', 'ماء طبيعي 0.25 لتر'), price: '1,50 KM' },
+    { name: t('Prirodna voda 0.25L', 'Still water 0.25L', 'Stilles Wasser 0.25L', 'ماء طبيعي 0.25 لتر'), price: '2,00 KM' },
+    { name: t('Prirodna voda 0.70L', 'Still water 0.70L', 'Stilles Wasser 0.70L', 'ماء طبيعي 0.70 لتر'), price: '6,00 KM' },
     { name: t('Senzacija', 'Sensation', 'Sensation', 'مشروب سينسيشن'), price: '2,50 KM' },
-    { name: t('Energy', 'Energy drink', 'Energiegetränk', 'مشروب طاقة'), price: '2,50 KM' },
-    { name: t('Red Bull', 'Red Bull', 'Red Bull', 'ريد بول'), price: '4,00 KM' }
+    { name: t('Energy', 'Energy drink', 'Energiegetränk', 'مشروب طاقة'), price: '4,00 KM' },
+    { name: t('Red Bull', 'Red Bull', 'Red Bull', 'ريد بول'), price: '6,00 KM' }
   ]
 },
   {
