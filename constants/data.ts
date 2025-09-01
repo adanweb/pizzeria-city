@@ -101,7 +101,7 @@ export const menuData: MenuCategory[] = [
     },
     {
       name: t('Fungi', 'Mushroom', 'Pilze', 'فطر'),
-      description: t('Pizza-sos, sir, gljive', 'Tomato sauce, cheese, mushrooms', 'Pizza-Soße, Käse, Pilze', 'صلصة طماطم، جبنة، فطر'),
+      description: t('Pizza-sos, gljive', 'Tomato sauce, mushrooms', 'Pizza-Soße, Pilze', 'صلصة طماطم، فطر'),
       price: '9,00 KM'
     },
     {
@@ -146,7 +146,7 @@ export const menuData: MenuCategory[] = [
     },
     {
       name: t('Kukurikuu', 'Kukurikuu', 'Kukurikuu', 'كوكوريكو'),
-      description: t('Pizza-sos, sir, piletina, gljive', 'Tomato sauce, cheese, chicken, mushrooms', 'Pizza-Soße, Käse, Hähnchen, Pilze', 'صلصة طماطم، جبنة، دجاج، فطر'),
+      description: t('Pizza-sos, sir, pileći file, gljive', 'Tomato sauce, cheese, chicken fillet, mushrooms', 'Pizza-Soße, Käse, Hähnchenfilet, Pilze', 'صلصة طماطم، جبنة، فيليه دجاج، فطر'),
       price: '11,00 KM'
     },
     {
