@@ -195,7 +195,7 @@ export const menuData: MenuCategory[] = [
   id: 'pizzas-55cm',
   title: t('Pizze 55 cm', 'Pizzas 55 cm', 'Pizzen 55 cm', 'بيتزا 55 سم'),
   items: [
-    { name: t('Margarita', 'Margherita', 'Margherita', 'مارغريتا'), description: t('Pizza sos, sir', 'Pizza sauce, cheese', 'Pizzasoße, Käse', 'صلصة بيتزا، جبن'), price: '21,00 KM' },
+    { name: t('Margarita', 'Margherita', 'Margherita', 'مارغريتا'), description: t('Pizza-sos, sir', 'Pizza sauce, cheese', 'Pizza-Soße, Käse', 'صلصة بيتزا، جبن'), price: '21,00 KM' },
     { name: t('Nutella', 'Nutella', 'Nutella', 'نوتيلا'), description: t('Nutella', 'Nutella', 'Nutella', 'نوتيلا'), price: '22,00 KM' },
     { name: t('Napolitana', 'Napolitana', 'Napolitana', 'نابوليتانا'), description: t('Pizza sos, šunka, viršla', 'Pizza sauce, ham, sausage', 'Pizzasoße, Schinken, Wurst', 'صلصة بيتزا، لحم، سجق'), price: '22,00 KM' },
     { name: t('Šunka', 'Ham', 'Schinken', 'لحم'), description: t('Pizza sos, šunka, sir', 'Pizza sauce, ham, cheese', 'Pizzasoße, Schinken, Käse', 'صلصة بيتزا، لحم، جبن'), price: '22,00 KM' },
