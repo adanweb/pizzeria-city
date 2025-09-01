@@ -411,7 +411,7 @@ export const menuData: MenuCategory[] = [
   id: 'alcohol',
   title: t('Alkoholna pića', 'Alcoholic Drinks', 'Alkoholische Getränke', 'مشروبات كحولية'),
   items: [
-    { name: t('Whisky', 'Whisky', 'Whisky', 'ويسكي'), price: '3.00 KM' },
+    { name: t('Whisky', 'Whisky', 'Whisky', 'ويسكي'), price: '5.00 KM' },
     { name: t('Viljamovka', 'Williams pear brandy', 'Williamsbirnenbrand', 'مشروب الإجاص فيلياموفكا'), price: '3.00 KM' },
     { name: t('Jägermeister', 'Jägermeister', 'Jägermeister', 'ياغرمايستر'), price: '3.00 KM' },
     { name: t('Stock', 'Stock', 'Stock', 'ستوك'), price: '3.00 KM' },
@@ -419,8 +419,8 @@ export const menuData: MenuCategory[] = [
     { name: t('Loza', 'Loza brandy', 'Loza Schnaps', 'مشروب كحولي لوزا'), price: '3.00 KM' },
     { name: t('Vodka', 'Vodka', 'Wodka', 'فودكا'), price: '3.00 KM' },
     { name: t('Pelinkovac', 'Pelinkovac (herbal liqueur)', 'Pelinkovac (Kräuterlikör)', 'بيلينكوفاتس (مشروب عشبي)'), price: '3.00 KM' },
-    { name: t('Lavov', 'Lavov', 'Lavov', 'لافوف'), price: '2.00 KM' },
-    { name: t('Šljivovica', 'Plum brandy', 'Pflaumenschnaps', 'مشروب البرقوق'), price: '3.00 KM' }
+    { name: t('Lavov', 'Lavov', 'Lavov', 'لافوف'), price: '3.00 KM' },
+    { name: t('Šljivovica', 'Plum brandy', 'Pflaumenschnaps', 'مشروب البرقوق'), price: '2.00 KM' }
   ]
 },
   {
@@ -430,7 +430,7 @@ export const menuData: MenuCategory[] = [
     { name: t('Preminger', 'Preminger', 'Preminger', 'بريمنجر'), price: '3.00 KM' },
     { name: t('Karlovačko', 'Karlovačko', 'Karlovačko', 'كارلوفاتشكو'), price: '3.00 KM' },
     { name: t('Laško', 'Laško', 'Laško', 'لاشكو'), price: '3.00 KM' },
-    { name: t('Laško Malt', 'Laško Malt', 'Laško Malz', 'لاشكو مالت'), price: '3.00 KM' },
+    { name: t('Laško Malt', 'Laško Malt', 'Laško Malz', 'لاشكو مالت'), price: '4.00 KM' },
     { name: t('Heineken', 'Heineken', 'Heineken', 'هاينيكن'), price: '4.00 KM' },
     { name: t('Bezalkoholno pivo', 'Non-alcoholic beer', 'Alkoholfreies Bier', 'بيرة بدون كحول'), price: '4.00 KM' },
     { name: t('Radler', 'Radler', 'Radler', 'رادلر'), price: '3.00 KM' }
