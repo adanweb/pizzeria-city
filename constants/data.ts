@@ -272,10 +272,10 @@ export const menuData: MenuCategory[] = [
   title: t('Dodaci', 'Extras', 'Beilagen', 'إضافات'),
   items: [
     { name: t('Kajmak', 'Kajmak', 'Kajmak', 'قشطة بلقانية'), price: '2,00 KM' },
-    { name: t('Pommes frites', 'French fries', 'Pommes frites', 'بطاطا مقلية'), price: '2,00 KM' },
+    { name: t('Pommes frites', 'French fries', 'Pommes frites', 'بطاطا مقلية'), price: '1,50 KM' },
     { name: t('Sos', 'Sauce', 'Soße', 'صلصة'), price: '2,00 KM' },
     { name: t('Bechamel sos', 'Béchamel sauce', 'Béchamelsauce', 'صلصة بشاميل'), price: '2,00 KM' },
-    { name: t('Pekarski krompir', 'Baked potatoes', 'Backkartoffeln', 'بطاطا مشوية'), price: '2,50 KM' }
+    { name: t('Pekarski krompir', 'Baked potatoes', 'Backkartoffeln', 'بطاطا مشوية'), price: '2,00 KM' }
   ]
 },
   {
@@ -321,7 +321,7 @@ export const menuData: MenuCategory[] = [
     },
     {
       name: t('Sarma', 'Sarma', 'Krautwickel', 'سرما'),
-      price: '8,00 KM'
+      price: 'X'
     },
     {
       name: t('Grah', 'Beans', 'Bohnen', 'فاصوليا'),
@@ -369,7 +369,7 @@ export const menuData: MenuCategory[] = [
     },
     {
       name: t('Ness Classic', 'Nescafé Classic', 'Nescafé Classic', 'نسكافيه كلاسيك'),
-      price: '2,10 KM'
+      price: '2,00 KM'
     },
     {
       name: t('Ness vanilija', 'Vanilla Nescafé', 'Nescafé Vanille', 'نسكافيه بالفانيليا'),
