@@ -393,7 +393,7 @@ export const menuData: MenuCategory[] = [
   id: 'softdrinks',
   title: t('Bezalkoholna pića', 'Soft Drinks', 'Alkoholfreie Getränke', 'مشروبات غير كحولية'),
   items: [
-    { name: t('Gazirani sokovi', 'Carbonated drinks', 'Kohlensäurehaltige Getränke', 'مشروبات غازية'), price: '2.,0 KM' },
+    { name: t('Gazirani sokovi', 'Carbonated drinks', 'Kohlensäurehaltige Getränke', 'مشروبات غازية'), price: '2,00 KM' },
     { name: t('Prirodni sokovi', 'Natural juices', 'Natur-Säfte', 'عصائر طبيعية'), price: '2,50 KM' },
     { name: t('Ledeni čaj', 'Iced tea', 'Eistee', 'شاي مثلج'), price: '2,50 KM' },
     { name: t('Cedevita', 'Cedevita', 'Cedevita', 'سيديفيتا'), price: '3,00 KM' },
