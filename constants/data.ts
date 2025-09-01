@@ -156,7 +156,10 @@ export const menuData: MenuCategory[] = [
     },
     {
       name: t('City', 'City', 'City', 'سيتي'),
-      description: t('Pizza-sos, sir, šunka, kulen, pršut, gljive', 'Tomato sauce, cheese, ham, kulen, prosciutto, mushrooms', 'Pizza-Soße, Käse, Schinken, Kulen, Prosciutto, Pilze', 'صلصة طماطم، جبنة، لحم، كولن، بروسكيتو، فطر'),
+      description: t('Pizza-sos, sir, šunka, kulen, pršut, gljive, vrhnje',
+                 'Tomato sauce, cheese, ham, kulen, prosciutto, mushrooms, cream',
+                 'Pizza-Soße, Käse, Schinken, Kulen, Prosciutto, Pilze, Sahne',
+                 'صلصة طماطم، جبنة، لحم، كولن، بروسكيتو، فطر، كريمة'),
       price: '11,00 KM'
     },
     {
