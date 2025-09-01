@@ -365,27 +365,27 @@ export const menuData: MenuCategory[] = [
   items: [
     {
       name: t('Kafa', 'Coffee', 'Kaffee', 'قهوة'),
-      price: '1.50 KM'
+      price: '1,50 KM'
     },
     {
       name: t('Ness Classic', 'Nescafé Classic', 'Nescafé Classic', 'نسكافيه كلاسيك'),
-      price: '2.10 KM'
+      price: '2,10 KM'
     },
     {
       name: t('Ness vanilija', 'Vanilla Nescafé', 'Nescafé Vanille', 'نسكافيه بالفانيليا'),
-      price: '2.50 KM'
+      price: '2,50 KM'
     },
     {
       name: t('Ness čokolada', 'Chocolate Nescafé', 'Nescafé Schokolade', 'نسكافيه بالشوكولاتة'),
-      price: '2.50 KM'
+      price: '2,50 KM'
     },
     {
       name: t('Topla čokolada', 'Hot chocolate', 'Heiße Schokolade', 'شوكولاتة ساخنة'),
-      price: '3.00 KM'
+      price: '3,00 KM'
     },
     {
       name: t('Čaj', 'Tea', 'Tee', 'شاي'),
-      price: '2.50 KM'
+      price: '2,50 KM'
     }
   ]
 },
@@ -393,57 +393,57 @@ export const menuData: MenuCategory[] = [
   id: 'softdrinks',
   title: t('Bezalkoholna pića', 'Soft Drinks', 'Alkoholfreie Getränke', 'مشروبات غير كحولية'),
   items: [
-    { name: t('Gazirani sokovi', 'Carbonated drinks', 'Kohlensäurehaltige Getränke', 'مشروبات غازية'), price: '2.50 KM' },
-    { name: t('Prirodni sokovi', 'Natural juices', 'Natur-Säfte', 'عصائر طبيعية'), price: '2.50 KM' },
-    { name: t('Ledeni čaj', 'Iced tea', 'Eistee', 'شاي مثلج'), price: '2.50 KM' },
-    { name: t('Cedevita', 'Cedevita', 'Cedevita', 'سيديفيتا'), price: '3.00 KM' },
-    { name: t('Limunada', 'Lemonade', 'Limonade', 'عصير الليمون'), price: '3.00 KM' },
-    { name: t('Narandža cijeđena', 'Fresh orange juice', 'Frisch gepresster Orangensaft', 'عصير برتقال طازج'), price: '4.00 KM' },
-    { name: t('Mineralna voda 1L', 'Mineral water 1L', 'Mineralwasser 1L', 'ماء معدني 1 لتر'), price: '2.00 KM' },
-    { name: t('Prirodna voda 0.70L', 'Still water 0.70L', 'Stilles Wasser 0.70L', 'ماء طبيعي 0.70 لتر'), price: '2.00 KM' },
-    { name: t('Prirodna voda 0.25L', 'Still water 0.25L', 'Stilles Wasser 0.25L', 'ماء طبيعي 0.25 لتر'), price: '1.50 KM' },
-    { name: t('Senzacija', 'Sensation', 'Sensation', 'مشروب سينسيشن'), price: '2.50 KM' },
-    { name: t('Energy', 'Energy drink', 'Energiegetränk', 'مشروب طاقة'), price: '2.50 KM' },
-    { name: t('Red Bull', 'Red Bull', 'Red Bull', 'ريد بول'), price: '4.00 KM' }
+    { name: t('Gazirani sokovi', 'Carbonated drinks', 'Kohlensäurehaltige Getränke', 'مشروبات غازية'), price: '2.,0 KM' },
+    { name: t('Prirodni sokovi', 'Natural juices', 'Natur-Säfte', 'عصائر طبيعية'), price: '2,50 KM' },
+    { name: t('Ledeni čaj', 'Iced tea', 'Eistee', 'شاي مثلج'), price: '2,50 KM' },
+    { name: t('Cedevita', 'Cedevita', 'Cedevita', 'سيديفيتا'), price: '3,00 KM' },
+    { name: t('Limunada', 'Lemonade', 'Limonade', 'عصير الليمون'), price: '3,00 KM' },
+    { name: t('Narandža cijeđena', 'Fresh orange juice', 'Frisch gepresster Orangensaft', 'عصير برتقال طازج'), price: '4,00 KM' },
+    { name: t('Mineralna voda 1L', 'Mineral water 1L', 'Mineralwasser 1L', 'ماء معدني 1 لتر'), price: '2,00 KM' },
+    { name: t('Prirodna voda 0.70L', 'Still water 0.70L', 'Stilles Wasser 0.70L', 'ماء طبيعي 0.70 لتر'), price: '2,00 KM' },
+    { name: t('Prirodna voda 0.25L', 'Still water 0.25L', 'Stilles Wasser 0.25L', 'ماء طبيعي 0.25 لتر'), price: '1,50 KM' },
+    { name: t('Senzacija', 'Sensation', 'Sensation', 'مشروب سينسيشن'), price: '2,50 KM' },
+    { name: t('Energy', 'Energy drink', 'Energiegetränk', 'مشروب طاقة'), price: '2,50 KM' },
+    { name: t('Red Bull', 'Red Bull', 'Red Bull', 'ريد بول'), price: '4,00 KM' }
   ]
 },
   {
   id: 'alcohol',
   title: t('Alkoholna pića', 'Alcoholic Drinks', 'Alkoholische Getränke', 'مشروبات كحولية'),
   items: [
-    { name: t('Whisky', 'Whisky', 'Whisky', 'ويسكي'), price: '5.00 KM' },
-    { name: t('Viljamovka', 'Williams pear brandy', 'Williamsbirnenbrand', 'مشروب الإجاص فيلياموفكا'), price: '3.00 KM' },
-    { name: t('Jägermeister', 'Jägermeister', 'Jägermeister', 'ياغرمايستر'), price: '3.00 KM' },
-    { name: t('Stock', 'Stock', 'Stock', 'ستوك'), price: '3.00 KM' },
-    { name: t('Konjak', 'Cognac', 'Cognac', 'كونياك'), price: '3.00 KM' },
-    { name: t('Loza', 'Loza brandy', 'Loza Schnaps', 'مشروب كحولي لوزا'), price: '3.00 KM' },
-    { name: t('Vodka', 'Vodka', 'Wodka', 'فودكا'), price: '3.00 KM' },
-    { name: t('Pelinkovac', 'Pelinkovac (herbal liqueur)', 'Pelinkovac (Kräuterlikör)', 'بيلينكوفاتس (مشروب عشبي)'), price: '3.00 KM' },
-    { name: t('Lavov', 'Lavov', 'Lavov', 'لافوف'), price: '3.00 KM' },
-    { name: t('Šljivovica', 'Plum brandy', 'Pflaumenschnaps', 'مشروب البرقوق'), price: '2.00 KM' }
+    { name: t('Whisky', 'Whisky', 'Whisky', 'ويسكي'), price: '5,00 KM' },
+    { name: t('Viljamovka', 'Williams pear brandy', 'Williamsbirnenbrand', 'مشروب الإجاص فيلياموفكا'), price: '3,00 KM' },
+    { name: t('Jägermeister', 'Jägermeister', 'Jägermeister', 'ياغرمايستر'), price: '3,00 KM' },
+    { name: t('Stock', 'Stock', 'Stock', 'ستوك'), price: '3,00 KM' },
+    { name: t('Konjak', 'Cognac', 'Cognac', 'كونياك'), price: '3,00 KM' },
+    { name: t('Loza', 'Loza brandy', 'Loza Schnaps', 'مشروب كحولي لوزا'), price: '3,00 KM' },
+    { name: t('Vodka', 'Vodka', 'Wodka', 'فودكا'), price: '3,00 KM' },
+    { name: t('Pelinkovac', 'Pelinkovac (herbal liqueur)', 'Pelinkovac (Kräuterlikör)', 'بيلينكوفاتس (مشروب عشبي)'), price: '3,00 KM' },
+    { name: t('Lavov', 'Lavov', 'Lavov', 'لافوف'), price: '3,00 KM' },
+    { name: t('Šljivovica', 'Plum brandy', 'Pflaumenschnaps', 'مشروب البرقوق'), price: '2,00 KM' }
   ]
 },
   {
   id: 'beer',
   title: t('Pivo', 'Beer', 'Bier', 'بيرة'),
   items: [
-    { name: t('Preminger', 'Preminger', 'Preminger', 'بريمنجر'), price: '3.00 KM' },
-    { name: t('Karlovačko', 'Karlovačko', 'Karlovačko', 'كارلوفاتشكو'), price: '3.00 KM' },
-    { name: t('Laško', 'Laško', 'Laško', 'لاشكو'), price: '3.00 KM' },
-    { name: t('Laško Malt', 'Laško Malt', 'Laško Malz', 'لاشكو مالت'), price: '4.00 KM' },
-    { name: t('Heineken', 'Heineken', 'Heineken', 'هاينيكن'), price: '4.00 KM' },
-    { name: t('Bezalkoholno pivo', 'Non-alcoholic beer', 'Alkoholfreies Bier', 'بيرة بدون كحول'), price: '4.00 KM' },
-    { name: t('Radler', 'Radler', 'Radler', 'رادلر'), price: '3.00 KM' }
+    { name: t('Preminger', 'Preminger', 'Preminger', 'بريمنجر'), price: '3,00 KM' },
+    { name: t('Karlovačko', 'Karlovačko', 'Karlovačko', 'كارلوفاتشكو'), price: '3,00 KM' },
+    { name: t('Laško', 'Laško', 'Laško', 'لاشكو'), price: '3,00 KM' },
+    { name: t('Laško Malt', 'Laško Malt', 'Laško Malz', 'لاشكو مالت'), price: '4,00 KM' },
+    { name: t('Heineken', 'Heineken', 'Heineken', 'هاينيكن'), price: '4,00 KM' },
+    { name: t('Bezalkoholno pivo', 'Non-alcoholic beer', 'Alkoholfreies Bier', 'بيرة بدون كحول'), price: '4,00 KM' },
+    { name: t('Radler', 'Radler', 'Radler', 'رادلر'), price: '3,00 KM' }
   ]
 },
   {
   id: 'wines',
   title: t('Vina', 'Wines', 'Weine', 'نبيذ'),
   items: [
-    { name: t('Butelja (Vranac Pro Corde)', 'Bottle (Vranac Pro Corde)', 'Flasche (Vranac Pro Corde)', 'زجاجة (فراناتس برو كوردي)'), price: '6.00 KM' },
-    { name: t('Buteljica 0.20 L', 'Small bottle 0.20 L', 'Kleinflasche 0,20 L', 'زجاجة صغيرة 0.20 لتر'), price: '6.00 KM' },
-    { name: t('Vino crno 1L', 'Red wine 1L', 'Rotwein 1L', 'نبيذ أحمر 1 لتر'), price: '22.00 KM' },
-    { name: t('Vino bijelo 1L', 'White wine 1L', 'Weißwein 1L', 'نبيذ أبيض 1 لتر'), price: '22.00 KM' }
+    { name: t('Butelja (Vranac Pro Corde)', 'Bottle (Vranac Pro Corde)', 'Flasche (Vranac Pro Corde)', 'زجاجة (فراناتس برو كوردي)'), price: '6,00 KM' },
+    { name: t('Buteljica 0.20 L', 'Small bottle 0.20 L', 'Kleinflasche 0,20 L', 'زجاجة صغيرة 0.20 لتر'), price: '6,00 KM' },
+    { name: t('Vino crno 1L', 'Red wine 1L', 'Rotwein 1L', 'نبيذ أحمر 1 لتر'), price: '22,00 KM' },
+    { name: t('Vino bijelo 1L', 'White wine 1L', 'Weißwein 1L', 'نبيذ أبيض 1 لتر'), price: '22,00 KM' }
   ]
 }
 ];
