@@ -169,7 +169,10 @@ export const menuData: MenuCategory[] = [
     },
     {
       name: t('Quattro Formaggi', 'Four Cheese', 'Vier Käse', 'أربعة أجبان'),
-      description: t('Pizza-sos, 4 vrste sira', 'Tomato sauce, 4 types of cheese', 'Pizza-Soße, 4 Käsesorten', 'صلصة طماطم، ٤ أنواع جبنة'),
+      description: t('Pizza-sos, sir, 4 vrste sira',
+    'Tomato sauce, cheese, 4 types of cheese',
+    'Pizza-Soße, Käse, 4 Käsesorten',
+    'صلصة طماطم، جبنة، ٤ أنواع جبنة'),
       price: '12,00 KM'
     },
     {
@@ -179,17 +182,26 @@ export const menuData: MenuCategory[] = [
     },
     {
       name: t('Mexicana', 'Mexicana', 'Mexicana', 'ميكسيكانا'),
-      description: t('Pizza-sos, sir, kulen, paprika, feferoni, kukuruz', 'Tomato sauce, cheese, kulen, peppers, hot peppers, corn', 'Pizza-Soße, Käse, Kulen, Paprika, Peperoni, Mais', 'صلصة طماطم، جبنة، كولن، فلفل، فلفل حار، ذرة'),
+      description: t('Pizza-sos, sir, kulen, paprika, feferoni, mozzarella, kukuruz',
+    'Pizza sauce, cheese, kulen, peppers, hot peppers, mozzarella, corn',
+    'Pizza-Soße, Käse, Kulen, Paprika, Peperoni, Mozzarella, Mais',
+    'صلصة بيتزا، جبنة، كولن، فلفل، فلفل حار، موزاريلا، ذرة'),
       price: '13,00 KM'
     },
     {
       name: t('No1', 'No1', 'No1', 'رقم 1'),
-      description: t('Pizza-sos, sir, piletina file, bukovača, šampinjoni, lešo tikvica', 'Tomato sauce, cheese, chicken fillet, oyster mushrooms, champignons, steamed zucchini', 'Pizza-Soße, Käse, Hähnchenfilet, Austernpilze, Champignons, Zucchini', 'صلصة طماطم، جبنة، دجاج، فطر محاري، فطر، كوسا مسلوقة'),
+      description: t('Pizza-sos, sir, pileći file, bukovača, šampinjoni, feta sir',
+    'Pizza sauce, cheese, chicken fillet, oyster mushrooms, champignons, feta cheese',
+    'Pizza-Soße, Käse, Hähnchenfilet, Austernpilze, Champignons, Fetakäse',
+    'صلصة بيتزا، جبنة، فيليه دجاج، فطر محاري، فطر، جبنة فيتا'),
       price: '13,00 KM'
     },
     {
       name: t('Gondola', 'Gondola', 'Gondola', 'جونديولا'),
-      description: t('Pizza-sos, sir, pršut, mozzarella, gljive', 'Tomato sauce, cheese, prosciutto, mozzarella, mushrooms', 'Pizza-Soße, Käse, Prosciutto, Mozzarella, Pilze', 'صلصة طماطم، جبنة، بروسكيتو، موزاريلا، فطر'),
+      description: t( 'Pizza-sos, sir, mljeveno meso, povrće, gljive',
+    'Pizza sauce, cheese, minced meat, vegetables, mushrooms',
+    'Pizza-Soße, Käse, Hackfleisch, Gemüse, Pilze',
+    'صلصة بيتزا، جبنة، لحم مفروم، خضار، فطر'),
       price: '13,00 KM'
     }
   ]
