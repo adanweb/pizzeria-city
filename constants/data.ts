@@ -34,7 +34,7 @@ export const menuData: MenuCategory[] = [
     { name: t('Šiš - ćevap veliki', 'Large Shish Ćevapi', 'Großer Schisch-Kebab', 'شيش كباب كبير'), price: '10,00 KM' },
     { name: t('Kombinacija mala', 'Small Combination', 'Kleine Kombination', 'تشكيلة صغيرة'), price: '8,00 KM' },
     { name: t('Kombinacija srednja', 'Medium Combination', 'Mittlere Kombination', 'تشكيلة متوسطة'), price: '9,00 KM' },
-    { name: t('Kombinacija velika', 'Large Combination', 'Große Kombination', 'تشكيلة كبيرة'), price: '14,00 KM' },
+    { name: t('Kombinacija velika', 'Large Combination', 'Große Kombination', 'تشكيلة كبيرة'), price: '11,00 KM' },
     { name: t('Teleći ražnjići', 'Veal Skewers', 'Kalbsspieße', 'أسياخ لحم العجل'), price: '14,00 KM' },
     { name: t('Teleće krpice + kajmak', 'Veal Strips + Kajmak', 'Kalbsstreifen + Kajmak', 'شرائح العجل + قشطة'), price: '16,00 KM' },
     { name: t('Miješano meso (za 1 osobu)', 'Mixed Meat (for 1 person)', 'Gemischtes Fleisch (für 1 Person)', 'لحم مشكل (لشخص واحد)'), price: '16,00 KM' },
