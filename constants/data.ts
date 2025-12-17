@@ -485,5 +485,5 @@ export const galleryImages: string[] = [
   "/images/biftek.webp",             // Luksuzniji mesni tanjir – sofisticirano
   "/images/pileci-file-besamel.webp",// Lagana, kremasta varijanta – za kontrast
   "/images/palacinke.webp",           // Slatki kraj – desert za emocionalni zaključak
-  "/images/img1.webp",
+  "/images/img1.jpg",
 ];
