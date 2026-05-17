@@ -310,12 +310,12 @@ export const menuData: MenuCategory[] = [
     {
       name: t('Hladna plata', 'Cold plate', 'Kalte Platte', 'طبق بارد'),
       description: t('za jednu osobu i pizza brot', 'for one person and pizza bread', 'für eine Person mit Pizzabrot', 'لشخص واحد وخبز بيتزا'),
-      price: '15,00 KM'
+      price: '20,00 KM'
     },
     {
       name: t('Hladna plata', 'Cold plate', 'Kalte Platte', 'طبق بارد'),
       description: t('za 2 osobe i pizza brot', 'for 2 persons and pizza bread', 'für 2 Personen mit Pizzabrot', 'لشخصين وخبز بيتزا'),
-      price: '30,00 KM'
+      price: '40,00 KM'
     }
   ]
 },
@@ -325,15 +325,15 @@ export const menuData: MenuCategory[] = [
   items: [
     {
       name: t('Gulaš', 'Goulash', 'Gulasch', 'غولاش'),
-      price: '8,00 KM'
+      price: '9,00 KM'
     },
     {
       name: t('Tripice', 'Tripe', 'Kutteln', 'كرشة'),
-      price: '8,00 KM'
+      price: '9,00 KM'
     },
     {
       name: t('Sarma', 'Sarma', 'Krautwickel', 'سرما'),
-      price: ''
+      price: '9,00 KM'
     },
     {
       name: t('Grah', 'Beans', 'Bohnen', 'فاصوليا'),
@@ -341,7 +341,7 @@ export const menuData: MenuCategory[] = [
     },
     {
       name: t('Punjena paprika', 'Stuffed pepper', 'Gefüllte Paprika', 'فلفل محشي'),
-      price: '8,00 KM'
+      price: '9,00 KM'
     }
   ]
 },
@@ -351,23 +351,23 @@ export const menuData: MenuCategory[] = [
   items: [
     {
       name: t('Palačinke sa eurokremom', 'Pancakes with Eurocream', 'Pfannkuchen mit Eurocreme', 'فطائر مع يوروكريم'),
-      price: '4,00 KM'
+      price: '5,00 KM'
     },
     {
       name: t('Palačinke sa orasima', 'Pancakes with walnuts', 'Pfannkuchen mit Walnüssen', 'فطائر مع الجوز'),
-      price: '4,00 KM'
+      price: '5,00 KM'
     },
     {
       name: t('Palačinke sa keksom', 'Pancakes with biscuit', 'Pfannkuchen mit Keks', 'فطائر مع البسكويت'),
-      price: '4,00 KM'
+      price: '5,00 KM'
     },
     {
       name: t('Palačinke sa šumskim voćem', 'Pancakes with forest fruit', 'Pfannkuchen mit Waldfrüchten', 'فطائر مع فواكه الغابة'),
-      price: '4,00 KM'
+      price: '5,00 KM'
     },
     {
       name: t('Kolač', 'Cake', 'Kuchen', 'كيك'),
-      price: '4,00 KM'
+      price: '5,00 KM'
     }
   ]
 },
@@ -377,27 +377,27 @@ export const menuData: MenuCategory[] = [
   items: [
     {
       name: t('Kafa', 'Coffee', 'Kaffee', 'قهوة'),
-      price: '1,50 KM'
-    },
-    {
-      name: t('Ness Classic', 'Nescafé Classic', 'Nescafé Classic', 'نسكافيه كلاسيك'),
       price: '2,00 KM'
     },
     {
+      name: t('Ness Classic', 'Nescafé Classic', 'Nescafé Classic', 'نسكافيه كلاسيك'),
+      price: '2,50 KM'
+    },
+    {
       name: t('Ness vanilija', 'Vanilla Nescafé', 'Nescafé Vanille', 'نسكافيه بالفانيليا'),
-      price: '2,50 KM'
-    },
-    {
-      name: t('Ness čokolada', 'Chocolate Nescafé', 'Nescafé Schokolade', 'نسكافيه بالشوكولاتة'),
-      price: '2,50 KM'
-    },
-    {
-      name: t('Topla čokolada', 'Hot chocolate', 'Heiße Schokolade', 'شوكولاتة ساخنة'),
       price: '3,00 KM'
     },
     {
+      name: t('Ness čokolada', 'Chocolate Nescafé', 'Nescafé Schokolade', 'نسكافيه بالشوكولاتة'),
+      price: '3,00 KM'
+    },
+    {
+      name: t('Topla čokolada', 'Hot chocolate', 'Heiße Schokolade', 'شوكولاتة ساخنة'),
+      price: '4,00 KM'
+    },
+    {
       name: t('Čaj', 'Tea', 'Tee', 'شاي'),
-      price: '2,50 KM'
+      price: '3,00 KM'
     }
   ]
 },
@@ -405,18 +405,18 @@ export const menuData: MenuCategory[] = [
   id: 'softdrinks',
   title: t('Bezalkoholna pića', 'Soft Drinks', 'Alkoholfreie Getränke', 'مشروبات غير كحولية'),
   items: [
-    { name: t('Gazirani sokovi', 'Carbonated drinks', 'Kohlensäurehaltige Getränke', 'مشروبات غازية'), price: '2,50 KM' },
-    { name: t('Prirodni sokovi', 'Natural juices', 'Natur-Säfte', 'عصائر طبيعية'), price: '3,00 KM' },
-    { name: t('Ledeni čaj', 'Iced tea', 'Eistee', 'شاي مثلج'), price: '2,50 KM' },
-    { name: t('Cedevita', 'Cedevita', 'Cedevita', 'سيديفيتا'), price: '2,50 KM' },
-    { name: t('Limunada', 'Lemonade', 'Limonade', 'عصير الليمون'), price: '3,00 KM' },
-    { name: t('Narandža cijeđena', 'Fresh orange juice', 'Frisch gepresster Orangensaft', 'عصير برتقال طازج'), price: '4,00 KM' },
+    { name: t('Gazirani sokovi', 'Carbonated drinks', 'Kohlensäurehaltige Getränke', 'مشروبات غازية'), price: '3,00 KM' },
+    { name: t('Prirodni sokovi', 'Natural juices', 'Natur-Säfte', 'عصائر طبيعية'), price: '3,50 KM' },
+    { name: t('Ledeni čaj', 'Iced tea', 'Eistee', 'شاي مثلج'), price: '3,00 KM' },
+    { name: t('Cedevita', 'Cedevita', 'Cedevita', 'سيديفيتا'), price: '3,00 KM' },
+    { name: t('Limunada', 'Lemonade', 'Limonade', 'عصير الليمون'), price: '3,50 KM' },
+    { name: t('Narandža cijeđena', 'Fresh orange juice', 'Frisch gepresster Orangensaft', 'عصير برتقال طازج'), price: '5,00 KM' },
+    { name: t('Orangina', 'Orangina', 'Orangina', 'أورانجينا'), price: '3,00 KM' },
     { name: t('Mineralna voda', 'Mineral Water', 'Mineralwasser', 'مياه معدنية'), price: '2,00 KM' },
     { name: t('Mineralna voda 1L', 'Mineral water 1L', 'Mineralwasser 1L', 'ماء معدني 1 لتر'), price: '6,00 KM' },
     { name: t('Prirodna voda 0.25L', 'Still water 0.25L', 'Stilles Wasser 0.25L', 'ماء طبيعي 0.25 لتر'), price: '2,00 KM' },
     { name: t('Prirodna voda 0.70L', 'Still water 0.70L', 'Stilles Wasser 0.70L', 'ماء طبيعي 0.70 لتر'), price: '6,00 KM' },
-    { name: t('Senzacija', 'Sensation', 'Sensation', 'مشروب سينسيشن'), price: '2,50 KM' },
-    { name: t('Energy', 'Energy drink', 'Energiegetränk', 'مشروب طاقة'), price: '4,00 KM' },
+    { name: t('Senzacija', 'Sensation', 'Sensation', 'مشروب سينسيشن'), price: '3,00 KM' },
     { name: t('Red Bull', 'Red Bull', 'Red Bull', 'ريد بول'), price: '6,00 KM' }
   ]
 },
