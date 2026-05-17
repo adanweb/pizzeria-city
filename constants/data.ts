@@ -237,7 +237,7 @@ export const menuData: MenuCategory[] = [
   id: 'cityfood',
   title: t('City Food', 'City Food', 'City Food', 'أطعمة المدينة'),
   items: [
-    { name: t('Jager pileći', 'Chicken Jäger', 'Hähnchen Jäger', 'دجاج ييغر'), description: t('Pileća šnicla, jager sos, riža', 'Chicken schnitzel, jäger sauce, rice', 'Hähnchenschnitzel, Jägersoße, Reis', 'شنيتسل دجاج، صوص ييغر، أرز'), price: '11,00 KM' },
+    { name: t('Jager pileći', 'Chicken Jäger', 'Hähnchen Jäger', 'دجاج ييغر'), description: t(), price: '11,00 KM' },
     { name: t('Bečka šnicla', 'Viennese Schnitzel', 'Wiener Schnitzel', 'شنيتسل فييني'), description: t('Pileća šnicla, pomfrit, tartar sos', 'Chicken schnitzel, fries, tartar sauce', 'Hähnchenschnitzel, Pommes, Tartarsoße', 'شنيتسل دجاج، بطاطا مقلية، صلصة التارتار'), price: '15,00 KM' },
     { name: t('Cordon blue', 'Cordon Bleu', 'Cordon Bleu', 'كوردون بلو'), description: t('Pileća šnicla, pomfrit, tartar sos', 'Chicken schnitzel, fries, tartar sauce', 'Hähnchenschnitzel, Pommes, Tartarsoße', 'شنيتسل دجاج، بطاطا مقلية، صلصة التارتار'), price: '17,00 KM' },
     { name: t('Teleća bečka šnicla XXL', 'XXL Veal Wiener Schnitzel', 'XXL Wiener Kalbsschnitzel', 'شنيتسل فيينا بالعجل XXL'), description: t('Teleća šnicla, pomfrit, tartar sos', 'Veal schnitzel, fries, tartar sauce', 'Kalbsschnitzel, Pommes, Tartarsoße', 'شنيتسل عجل، بطاطا مقلية، صلصة التارتار'), price: '15,00 KM' },
