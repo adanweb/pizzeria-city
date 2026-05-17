@@ -265,43 +265,42 @@ export const menuData: MenuCategory[] = [
   id: 'soups',
   title: t('Supe', 'Soups', 'Suppen', 'الشوربات'),
   items: [
-    { name: t('Supa od paradajza', 'Tomato Soup', 'Tomatensuppe', 'شوربة طماطم'), price: '4,00 KM' },
-    { name: t('Supa goveđa', 'Beef Soup', 'Rindfleischsuppe', 'شوربة لحم البقر'), price: '4,00 KM' },
-    { name: t('Krem juha od gljiva', 'Cream of Mushroom Soup', 'Champignoncremesuppe', 'شوربة كريمة الفطر'), price: '4,00 KM' },
-    { name: t('Begova čorba', 'Bey’s Soup', 'Bey-Suppe', 'شوربة بيك'), price: '4,00 KM' },
-    { name: t('Trahana', 'Tarhana', 'Tarhana', 'طرهانا'), price: '4,00 KM' }
+    { name: t('Supa goveđa', 'Beef Soup', 'Rindfleischsuppe', 'شوربة لحم البقر'), price: '5,00 KM' },
+    { name: t('Krem juha od gljiva', 'Cream of Mushroom Soup', 'Champignoncremesuppe', 'شوربة كريمة الفطر'), price: '5,00 KM' },
+    { name: t('Begova čorba', 'Bey’s Soup', 'Bey-Suppe', 'شوربة بيك'), price: '5,00 KM' },
+    { name: t('Trahana', 'Tarhana', 'Tarhana', 'طرهانا'), price: '5,00 KM' }
   ]
 },
   {
   id: 'city-breakfast',
   title: t('City – doručak', 'City – Breakfast', 'City – Frühstück', 'فطور سيتي'),
   items: [
-    { name: t('Omlette', 'Omelette', 'Omelett', 'عجة بيض'), price: '6,00 KM' },
-    { name: t('City – doručak', 'City – Breakfast', 'City – Frühstück', 'فطور سيتي'), price: '8,00 KM' }
+    { name: t('Omlette', 'Omelette', 'Omelett', 'عجة بيض'), price: '7,00 KM' },
+    { name: t('City – doručak', 'City – Breakfast', 'City – Frühstück', 'فطور سيتي'), price: '9,00 KM' }
   ]
 },
   {
   id: 'extras',
   title: t('Dodaci', 'Extras', 'Beilagen', 'إضافات'),
   items: [
-    { name: t('Kajmak', 'Kajmak', 'Kajmak', 'قشطة بلقانية'), price: '2,00 KM' },
-    { name: t('Pommes frites', 'French fries', 'Pommes frites', 'بطاطا مقلية'), price: '1,50 KM' },
-    { name: t('Sos', 'Sauce', 'Soße', 'صلصة'), price: '2,00 KM' },
-    { name: t('Bechamel sos', 'Béchamel sauce', 'Béchamelsauce', 'صلصة بشاميل'), price: '2,00 KM' },
-    { name: t('Pekarski krompir', 'Baked potatoes', 'Backkartoffeln', 'بطاطا مشوية'), price: '2,00 KM' }
+    { name: t('Kajmak', 'Kajmak', 'Kajmak', 'قشطة بلقانية'), price: '2,50 KM' },
+    { name: t('Pommes frites', 'French fries', 'Pommes frites', 'بطاطا مقلية'), price: '2,00 KM' },
+    { name: t('Sos', 'Sauce', 'Soße', 'صلصة'), price: '3,00 KM' },
+    { name: t('Bechamel sos', 'Béchamel sauce', 'Béchamelsauce', 'صلصة بشاميل'), price: '2,50 KM' },
+    { name: t('Pekarski krompir', 'Baked potatoes', 'Backkartoffeln', 'بطاطا مشوية'), price: '3,00 KM' }
   ]
 },
   {
   id: 'salads',
   title: t('Salate', 'Salads', 'Salate', 'سلطات'),
   items: [
-    { name: t('Miješana salata', 'Mixed salad', 'Gemischter Salat', 'سلطة مشكلة'), price: '3,00 KM' },
-    { name: t('Šopska salata', 'Shopska salad', 'Schopska Salat', 'سلطة شوبسكا'), price: '6,00 KM' },
-    { name: t('Grčka salata', 'Greek salad', 'Griechischer Salat', 'سلطة يونانية'), price: '6,00 KM' },
-    { name: t('Salata sa pilećim mesom', 'Chicken salad', 'Salat mit Hähnchenfleisch', 'سلطة بالدجاج'), price: '6,00 KM' },
-    { name: t('Salata sa tunjevinom', 'Tuna salad', 'Thunfischsalat', 'سلطة بالتونة'), price: '7,00 KM' },
-    { name: t('Salata sa mozzarellom', 'Mozzarella salad', 'Mozzarella-Salat', 'سلطة بالموزاريلا'), price: '9,00 KM' },
-    { name: t('City salata', 'City salad', 'City-Salat', 'سلطة سيتي'), price: '9,00 KM' }
+    { name: t('Miješana salata', 'Mixed salad', 'Gemischter Salat', 'سلطة مشكلة'), price: '4,00 KM' },
+    { name: t('Šopska salata', 'Shopska salad', 'Schopska Salat', 'سلطة شوبسكا'), price: '7,00 KM' },
+    { name: t('Grčka salata', 'Greek salad', 'Griechischer Salat', 'سلطة يونانية'), price: '7,00 KM' },
+    { name: t('Salata sa pilećim mesom', 'Chicken salad', 'Salat mit Hähnchenfleisch', 'سلطة بالدجاج'), price: '8,00 KM' },
+    { name: t('Salata sa tunjevinom', 'Tuna salad', 'Thunfischsalat', 'سلطة بالتونة'), price: '8,00 KM' },
+    { name: t('City salata', 'City salad', 'City-Salat', 'سلطة سيتي'), price: '10,00 KM' },
+    { name: t('Salata sa mozzarellom', 'Mozzarella salad', 'Mozzarella-Salat', 'سلطة بالموزاريلا'), price: '10,00 KM' }
   ]
 },
   {
