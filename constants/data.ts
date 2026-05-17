@@ -455,8 +455,8 @@ export const menuData: MenuCategory[] = [
   items: [
     { name: t('Butelja (Vranac Pro Corde)', 'Bottle (Vranac Pro Corde)', 'Flasche (Vranac Pro Corde)', 'زجاجة (فراناتس برو كوردي)'), price: '6,00 KM' },
     { name: t('Buteljica 0.20 L', 'Small bottle 0.20 L', 'Kleinflasche 0,20 L', 'زجاجة صغيرة 0.20 لتر'), price: '6,00 KM' },
-    { name: t('Vino crno 1L', 'Red wine 1L', 'Rotwein 1L', 'نبيذ أحمر 1 لتر'), price: '22,00 KM' },
-    { name: t('Vino bijelo 1L', 'White wine 1L', 'Weißwein 1L', 'نبيذ أبيض 1 لتر'), price: '22,00 KM' }
+    { name: t('Vino crno 1L', 'Red wine 1L', 'Rotwein 1L', 'نبيذ أحمر 1 لتر'), price: '25,00 KM' },
+    { name: t('Vino bijelo 1L', 'White wine 1L', 'Weißwein 1L', 'نبيذ أبيض 1 لتر'), price: '25,00 KM' }
   ]
 }
 ];
